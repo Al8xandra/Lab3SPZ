@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<RCC version="1.0">
+    <qresource>
+        <file>backers.txt</file>
+        <file>credits.txt</file>
+        <file>developers.txt</file>
+        <file>LICENSE</file>
+        <file>libraries.txt</file>
+    </qresource>
+</RCC>

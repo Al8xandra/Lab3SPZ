@@ -1,0 +1,24 @@
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<RCC>
+    <qresource prefix="/">
+        <file>bilinear_gradient.frag</file>
+        <file>conical_gradient.frag</file>
+        <file>conical_symetric_gradient.frag</file>
+        <file>highq_downscale.frag</file>
+        <file>linear_gradient.frag</file>
+        <file>matrix_transform.vert</file>
+        <file>radial_gradient.frag</file>
+        <file>simple_texture.frag</file>
+        <file>square_gradient.frag</file>
+        <file>matrix_transform_legacy.vert</file>
+        <file>simple_texture_legacy.frag</file>
+        <file>solid_color.frag</file>
+        <file>solid_color_legacy.frag</file>
+        <file>solid_color.vert</file>
+        <file>solid_color_legacy.vert</file>
+        <file>overlay_inverted.frag</file>
+    </qresource>
+</RCC>

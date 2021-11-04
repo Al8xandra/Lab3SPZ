@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Tools">
+  <Actions category="tool-shortcuts">
+      <text>Tool Shortcuts</text>
+    <Action name="KisToolPencil">
+      <icon>krita_tool_freehandvector</icon>
+      <text>Freehand Path Tool</text>
+      <whatsThis></whatsThis>
+      <toolTip>Freehand Path Tool</toolTip>
+      <iconText>Freehand Path Tool</iconText>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+  </Actions>
+</ActionCollection>

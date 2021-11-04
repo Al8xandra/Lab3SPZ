@@ -1,0 +1,3388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Krita">
+  <Actions category="General">
+    <text>General</text>
+    <Action name="open_resources_directory">
+      <icon/>
+      <text>Open Resources Folder</text>
+      <whatsThis>Opens a file browser at the location Krita saves resources such as brushes to.</whatsThis>
+      <toolTip>Opens a file browser at the location Krita saves resources such as brushes to.</toolTip>
+      <iconText>Open Resources Folder</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="windows_cascade">
+      <icon/>
+      <text>C&amp;ascade</text>
+      <whatsThis/>
+      <toolTip>Cascade</toolTip>
+      <iconText>Cascade</iconText>
+      <activationFlags>10</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="windows_tile">
+      <icon/>
+      <text>&amp;Tile</text>
+      <whatsThis/>
+      <toolTip>Tile</toolTip>
+      <iconText>Tile</iconText>
+      <activationFlags>10</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="create_bundle">
+      <icon/>
+      <text>Create Resource Bundle...</text>
+      <whatsThis/>
+      <toolTip>Create Resource Bundle</toolTip>
+      <iconText>Create Resource Bundle</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mainToolBar">
+      <icon/>
+      <text>Show File Toolbar</text>
+      <whatsThis/>
+      <toolTip>Show File Toolbar</toolTip>
+      <iconText>Show File Toolbar</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_color_selector">
+      <icon/>
+      <text>Show color selector</text>
+      <whatsThis/>
+      <toolTip>Show color selector</toolTip>
+      <iconText>Show color selector</iconText>
+      <shortcut>Shift+I</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_mypaint_shade_selector">
+      <icon/>
+      <text>Show MyPaint shade selector</text>
+      <whatsThis/>
+      <toolTip>Show MyPaint shade selector</toolTip>
+      <iconText>Show MyPaint shade selector</iconText>
+      <shortcut>Shift+M</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_minimal_shade_selector">
+      <icon/>
+      <text>Show minimal shade selector</text>
+      <whatsThis/>
+      <toolTip>Show minimal shade selector</toolTip>
+      <iconText>Show minimal shade selector</iconText>
+      <shortcut>Shift+N</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_color_history">
+      <icon/>
+      <text>Show color history</text>
+      <whatsThis/>
+      <toolTip>Show color history</toolTip>
+      <iconText>Show color history</iconText>
+      <shortcut>H</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_common_colors">
+      <icon/>
+      <text>Show common colors</text>
+      <whatsThis/>
+      <toolTip>Show common colors</toolTip>
+      <iconText>Show common colors</iconText>
+      <shortcut>U</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_tool_options">
+      <icon/>
+      <text>Show Tool Options</text>
+      <whatsThis/>
+      <toolTip>Show Tool Options</toolTip>
+      <iconText>Show Tool Options</iconText>
+      <shortcut>\</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_brush_editor">
+      <icon/>
+      <text>Show Brush Editor</text>
+      <whatsThis/>
+      <toolTip>Show Brush Editor</toolTip>
+      <iconText>Show Brush Editor</iconText>
+      <shortcut>F5</shortcut>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show_brush_presets">
+      <icon/>
+      <text>Show Brush Presets</text>
+      <whatsThis/>
+      <toolTip>Show Brush Presets</toolTip>
+      <iconText>Show Brush Presets</iconText>
+      <shortcut>F6</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="tablet_debugger">
+      <icon/>
+      <text>Toggle Tablet Debugger</text>
+      <whatsThis/>
+      <toolTip>Toggle Tablet Debugger</toolTip>
+      <iconText>Toggle Tablet Debugger</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Shift+T</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="buginfo">
+      <icon/>
+      <text>Show Krita log for bug reports.</text>
+      <whatsThis/>
+      <toolTip>Show Krita log for bug reports.</toolTip>
+      <iconText>Show Krita log for bug reports.</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="sysinfo">
+      <icon/>
+      <text>Show system information for bug reports.</text>
+      <whatsThis/>
+      <toolTip>Show system information for bug reports.</toolTip>
+      <iconText>Show system information for bug reports.</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="command_bar_open">
+      <icon/>
+      <text>Search Actions</text>
+      <whatsThis/>
+      <toolTip>Open the command bar to search through actions.</toolTip>
+      <iconText>Search Actions.</iconText>
+      <shortcut>Ctrl+Return</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rename_composition">
+      <icon/>
+      <text>Rename Composition...</text>
+      <whatsThis/>
+      <toolTip>Rename Composition</toolTip>
+      <iconText>Rename Composition</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="update_composition">
+      <icon/>
+      <text>Update Composition</text>
+      <whatsThis/>
+      <toolTip>Update Composition</toolTip>
+      <iconText>Update Composition</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="ruler_pixel_multiple2">
+      <icon/>
+      <text>Use multiple of 2 for pixel scale</text>
+      <whatsThis>Use multiple of 2 for pixel scale</whatsThis>
+      <toolTip>Use multiple of 2 for pixel scale</toolTip>
+      <iconText>Use multiple of 2 for pixel scale</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="invert_selection">
+      <icon/>
+      <text>&amp;Invert Selection</text>
+      <whatsThis/>
+      <toolTip>Invert current selection</toolTip>
+      <iconText>Invert Selection</iconText>
+      <activationFlags>10000000000</activationFlags>
+      <activationConditions>100</activationConditions>
+      <shortcut>Ctrl+Shift+I</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="create_snapshot">
+      <icon/>
+      <text>Create Snapshot</text>
+      <whatsThis/>
+      <toolTip>Create Snapshot</toolTip>
+      <iconText/>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="switchto_snapshot">
+      <icon/>
+      <text>Switch to Selected Snapshot</text>
+      <whatsThis/>
+      <toolTip>Switch to selected snapshot</toolTip>
+      <iconText/>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_snapshot">
+      <icon/>
+      <text>Remove Selected Snapshot</text>
+      <whatsThis/>
+      <toolTip>Remove Selected Snapshot</toolTip>
+      <iconText/>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+  <Actions category="Painting">
+    <text>Painting</text>
+    <Action name="make_brush_color_lighter">
+      <icon>lightness-increase</icon>
+      <text>Make brush color lighter</text>
+      <whatsThis/>
+      <toolTip>Make brush color lighter</toolTip>
+      <iconText>Make brush color lighter</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>L</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_darker">
+      <icon>lightness-decrease</icon>
+      <text>Make brush color darker</text>
+      <whatsThis/>
+      <toolTip>Make brush color darker</toolTip>
+      <iconText>Make brush color darker</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>K</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_saturated">
+      <icon/>
+      <text>Make brush color more saturated</text>
+      <whatsThis/>
+      <toolTip>Make brush color more saturated</toolTip>
+      <iconText>Make brush color more saturated</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_desaturated">
+      <icon/>
+      <text>Make brush color more desaturated</text>
+      <whatsThis/>
+      <toolTip>Make brush color more desaturated</toolTip>
+      <iconText>Make brush color more desaturated</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="shift_brush_color_clockwise">
+      <icon/>
+      <text>Shift brush color hue clockwise</text>
+      <whatsThis/>
+      <toolTip>Shift brush color hue clockwise</toolTip>
+      <iconText>Shift brush color hue clockwise</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="shift_brush_color_counter_clockwise">
+      <icon/>
+      <text>Shift brush color hue counter-clockwise</text>
+      <whatsThis/>
+      <toolTip>Shift brush color hue counter-clockwise</toolTip>
+      <iconText>Shift brush color hue counter-clockwise</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_redder">
+      <icon/>
+      <text>Make brush color more red</text>
+      <whatsThis/>
+      <toolTip>Make brush color more red</toolTip>
+      <iconText>Make brush color more red</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_greener">
+      <icon/>
+      <text>Make brush color more green</text>
+      <whatsThis/>
+      <toolTip>Make brush color more green</toolTip>
+      <iconText>Make brush color more green</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_bluer">
+      <icon/>
+      <text>Make brush color more blue</text>
+      <whatsThis/>
+      <toolTip>Make brush color more blue</toolTip>
+      <iconText>Make brush color more blue</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_brush_color_yellower">
+      <icon/>
+      <text>Make brush color more yellow</text>
+      <whatsThis/>
+      <toolTip>Make brush color more yellow</toolTip>
+      <iconText>Make brush color more yellow</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="increase_opacity">
+      <icon>opacity-increase</icon>
+      <text>Increase opacity</text>
+      <whatsThis/>
+      <toolTip>Increase opacity</toolTip>
+      <iconText>Increase opacity</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>O</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="decrease_opacity">
+      <icon>opacity-decrease</icon>
+      <text>Decrease opacity</text>
+      <whatsThis/>
+      <toolTip>Decrease opacity</toolTip>
+      <iconText>Decrease opacity</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>I</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="erase_action">
+      <icon>draw-eraser</icon>
+      <text>Set eraser mode</text>
+      <whatsThis/>
+      <toolTip>Set eraser mode</toolTip>
+      <iconText>Set eraser mode</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>E</shortcut>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="reload_preset_action">
+      <icon>reload-preset</icon>
+      <text>Reload Original Preset</text>
+      <whatsThis/>
+      <toolTip>Reload Original Preset</toolTip>
+      <iconText>Reload Original Preset</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="preserve_alpha">
+      <icon>transparency-unlocked</icon>
+      <text>Preserve Alpha</text>
+      <whatsThis/>
+      <toolTip>Preserve Alpha</toolTip>
+      <iconText>Preserve Alpha</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="disable_pressure">
+      <icon>transform_icons_penPressure</icon>
+      <text>Use Pen Pressure</text>
+      <whatsThis/>
+      <toolTip>Use Pen Pressure</toolTip>
+      <iconText>Use Pen Pressure</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="hmirror_action">
+      <icon>symmetry-horizontal</icon>
+      <text>Horizontal Mirror Tool</text>
+      <whatsThis/>
+      <toolTip>Horizontal Mirror Tool</toolTip>
+      <iconText>Horizontal Mirror Tool</iconText>
+      <activationFlags>0</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="vmirror_action">
+      <icon>symmetry-vertical</icon>
+      <text>Vertical Mirror Tool</text>
+      <whatsThis/>
+      <toolTip>Vertical Mirror Tool</toolTip>
+      <iconText>Vertical Mirror Tool</iconText>
+      <activationFlags>0</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorX-hideDecorations">
+      <icon/>
+      <text>Hide Mirror X Line</text>
+      <whatsThis/>
+      <toolTip>Hide Mirror X Line</toolTip>
+      <iconText>Hide Mirror X Line</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorY-hideDecorations">
+      <icon/>
+      <text>Hide Mirror Y Line</text>
+      <whatsThis/>
+      <toolTip>Hide Mirror Y Line</toolTip>
+      <iconText>Hide Mirror Y Line</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorX-lock">
+      <icon/>
+      <text>Lock X Line</text>
+      <whatsThis/>
+      <toolTip>Lock X Line</toolTip>
+      <iconText>Lock X Line</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorY-lock">
+      <icon/>
+      <text>Lock Y Line</text>
+      <whatsThis/>
+      <toolTip>Lock Y Line</toolTip>
+      <iconText>Lock Y Line</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorX-moveToCenter">
+      <icon/>
+      <text>Move to Canvas Center X</text>
+      <whatsThis/>
+      <toolTip>Move to Canvas Center X</toolTip>
+      <iconText>Move to Canvas Center X</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorY-moveToCenter">
+      <icon/>
+      <text>Move to Canvas Center Y</text>
+      <whatsThis/>
+      <toolTip>Move to Canvas Center Y</toolTip>
+      <iconText>Move to Canvas Center Y</iconText>
+      <activationFlags>10000</activationFlags>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle-selection-overlay-mode">
+      <icon/>
+      <text>&amp;Toggle Selection Display Mode</text>
+      <whatsThis/>
+      <toolTip>Toggle Selection Display Mode</toolTip>
+      <iconText>Toggle Selection Display Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="next_favorite_preset">
+      <icon/>
+      <text>Next Favourite Preset</text>
+      <whatsThis/>
+      <toolTip>Next Favourite Preset</toolTip>
+      <iconText>Next Favourite Preset</iconText>
+      <shortcut>,</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="previous_favorite_preset">
+      <icon/>
+      <text>Previous Favourite Preset</text>
+      <whatsThis/>
+      <toolTip>Previous Favourite Preset</toolTip>
+      <iconText>Previous Favourite Preset</iconText>
+      <shortcut>.</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="previous_preset">
+      <icon>preset-switcher</icon>
+      <text>Switch to Previous Preset</text>
+      <whatsThis/>
+      <toolTip>Switch to Previous Preset</toolTip>
+      <iconText>Switch to Previous Preset</iconText>
+      <shortcut>/</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="BrushesAndStuff">
+      <icon/>
+      <text>Hide Brushes and Stuff Toolbar</text>
+      <whatsThis/>
+      <toolTip>Hide Brushes and Stuff Toolbar</toolTip>
+      <iconText>Hide Brushes and Stuff Toolbar</iconText>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="reset_fg_bg">
+      <icon/>
+      <text>Set Foreground and Background Colors to Black and White</text>
+      <whatsThis/>
+      <toolTip>Set foreground and background colors to black and white</toolTip>
+      <iconText>Set Foreground and Background Colors to Black and White</iconText>
+      <shortcut>D</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_fg_bg">
+      <icon/>
+      <text>Swap Foreground and Background Colors</text>
+      <whatsThis/>
+      <toolTip>Swap foreground and background colors</toolTip>
+      <iconText>Swap Foreground and Background Colors</iconText>
+      <shortcut>X</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="selection_tool_mode_add">
+      <icon/>
+      <text>Selection Mode: Add</text>
+      <whatsThis/>
+      <toolTip>Selection Mode: Add</toolTip>
+      <iconText>Selection Mode: Add</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="selection_tool_mode_subtract">
+      <icon/>
+      <text>Selection Mode: Subtract</text>
+      <whatsThis/>
+      <toolTip>Selection Mode: Subtract</toolTip>
+      <iconText>Selection Mode: Subtract</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="selection_tool_mode_intersect">
+      <icon/>
+      <text>Selection Mode: Intersect</text>
+      <whatsThis/>
+      <toolTip>Selection Mode: Intersect</toolTip>
+      <iconText>Selection Mode: Intersect</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="selection_tool_mode_replace">
+      <icon/>
+      <text>Selection Mode: Replace</text>
+      <whatsThis/>
+      <toolTip>Selection Mode: Replace</toolTip>
+      <iconText>Selection Mode: Replace</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_weighted_brush_smoothing">
+      <icon>smoothing-weighted</icon>
+      <text>Brush Smoothing: Weighted</text>
+      <whatsThis/>
+      <toolTip>Brush Smoothing: Weighted</toolTip>
+      <iconText>Brush Smoothing: Weighted</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_no_brush_smoothing">
+      <icon>smoothing-no</icon>
+      <text>Brush Smoothing: Disabled</text>
+      <whatsThis/>
+      <toolTip>Brush Smoothing: Disabled</toolTip>
+      <iconText>Brush Smoothing: Disabled</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_stabilizer_brush_smoothing">
+      <icon>smoothing-stabilizer</icon>
+      <text>Brush Smoothing: Stabilizer</text>
+      <whatsThis/>
+      <toolTip>Brush Smoothing: Stabilizer</toolTip>
+      <iconText>Brush Smoothing: Stabilizer</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="decrease_brush_size">
+      <icon>brushsize-decrease</icon>
+      <text>Decrease Brush Size</text>
+      <whatsThis/>
+      <toolTip>Decrease Brush Size</toolTip>
+      <iconText>Decrease Brush Size</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>[</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_simple_brush_smoothing">
+      <icon>smoothing-basic</icon>
+      <text>Brush Smoothing: Basic</text>
+      <whatsThis/>
+      <toolTip>Brush Smoothing: Basic</toolTip>
+      <iconText>Brush Smoothing: Basic</iconText>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="increase_brush_size">
+      <icon>brushsize-increase</icon>
+      <text>Increase Brush Size</text>
+      <whatsThis/>
+      <toolTip>Increase Brush Size</toolTip>
+      <iconText>Increase Brush Size</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>]</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_assistant">
+      <icon/>
+      <text>Toggle Snap To Assistants</text>
+      <whatsThis/>
+      <toolTip>Toggle Snap to Assistants</toolTip>
+      <iconText>ToggleAssistant</iconText>
+      <shortcut>Ctrl+Shift+L</shortcut>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="undo_polygon_selection">
+      <icon/>
+      <text>Undo Polygon Selection Points</text>
+      <whatsThis/>
+      <toolTip>Undo Polygon Selection Points</toolTip>
+      <iconText>Undo Polygon Selection Points</iconText>
+      <shortcut>Shift+Z</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="fill_selection_foreground_color_opacity">
+      <icon/>
+      <text>Fill with Foreground Color (Opacity)</text>
+      <whatsThis/>
+      <toolTip>Fill with Foreground Color (Opacity)</toolTip>
+      <iconText>Fill with Foreground Color (Opacity)</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut>Ctrl+Shift+Backspace</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="fill_selection_background_color_opacity">
+      <icon/>
+      <text>Fill with Background Color (Opacity)</text>
+      <whatsThis/>
+      <toolTip>Fill with Background Color (Opacity)</toolTip>
+      <iconText>Fill with Background Color (Opacity)</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut>Ctrl+Backspace</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="fill_selection_pattern_opacity">
+      <icon/>
+      <text>Fill with Pattern (Opacity)</text>
+      <whatsThis/>
+      <toolTip>Fill with Pattern (Opacity)</toolTip>
+      <iconText>Fill with Pattern (Opacity)</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_selection_to_shape">
+      <icon/>
+      <text>Convert &amp;to Shape</text>
+      <whatsThis/>
+      <toolTip>Convert to Shape</toolTip>
+      <iconText>Convert to Shape</iconText>
+      <activationFlags>10000000000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="show-global-selection-mask">
+      <icon/>
+      <text>&amp;Show Global Selection Mask</text>
+      <whatsThis/>
+      <toolTip>Shows global selection as a usual selection mask in &lt;interface&gt;Layers&lt;/interface&gt; docker</toolTip>
+      <iconText>Show Global Selection Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>100</activationConditions>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+  <Actions category="Filters">
+    <text comment="Filter as an effect">Filters</text>
+    <Action name="krita_filter_colortoalpha">
+      <icon>color-to-alpha</icon>
+      <text>&amp;Color to Alpha...</text>
+      <whatsThis/>
+      <toolTip>Color to Alpha</toolTip>
+      <iconText>Color to Alpha</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_top edge detections">
+      <icon/>
+      <text>&amp;Top Edge Detection</text>
+      <whatsThis/>
+      <toolTip>Top Edge Detection</toolTip>
+      <iconText>Top Edge Detection</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_indexcolors">
+      <icon/>
+      <text>&amp;Index Colors...</text>
+      <whatsThis/>
+      <toolTip>Index Colors</toolTip>
+      <iconText>Index Colors</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss horizontal only">
+      <icon/>
+      <text>Emboss Horizontal &amp;Only</text>
+      <whatsThis/>
+      <toolTip>Emboss Horizontal Only</toolTip>
+      <iconText>Emboss Horizontal Only</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_dodge">
+      <icon/>
+      <text>D&amp;odge</text>
+      <whatsThis/>
+      <toolTip>Dodge</toolTip>
+      <iconText>Dodge</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_sharpen">
+      <icon/>
+      <text>&amp;Sharpen</text>
+      <whatsThis/>
+      <toolTip>Sharpen</toolTip>
+      <iconText>Sharpen</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_burn">
+      <icon/>
+      <text>B&amp;urn</text>
+      <whatsThis/>
+      <toolTip>Burn</toolTip>
+      <iconText>Burn</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_mean removal">
+      <icon/>
+      <text>&amp;Mean Removal</text>
+      <whatsThis/>
+      <toolTip>Mean Removal</toolTip>
+      <iconText>Mean Removal</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_gaussian blur">
+      <icon/>
+      <text>&amp;Gaussian Blur...</text>
+      <whatsThis/>
+      <toolTip>Gaussian Blur</toolTip>
+      <iconText>Gaussian Blur</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss all directions">
+      <icon/>
+      <text>Emboss &amp;in All Directions</text>
+      <whatsThis/>
+      <toolTip>Emboss in All Directions</toolTip>
+      <iconText>Emboss in All Directions</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_smalltiles">
+      <icon/>
+      <text>&amp;Small Tiles...</text>
+      <whatsThis/>
+      <toolTip>Small Tiles</toolTip>
+      <iconText>Small Tiles</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_levels">
+      <icon/>
+      <text>&amp;Levels...</text>
+      <whatsThis/>
+      <toolTip>Levels</toolTip>
+      <iconText>Levels</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+L</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_sobel">
+      <icon/>
+      <text>&amp;Sobel...</text>
+      <whatsThis/>
+      <toolTip>Sobel</toolTip>
+      <iconText>Sobel</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_wave">
+      <icon/>
+      <text>&amp;Wave...</text>
+      <whatsThis/>
+      <toolTip>Wave</toolTip>
+      <iconText>Wave</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_motion blur">
+      <icon/>
+      <text>&amp;Motion Blur...</text>
+      <whatsThis/>
+      <toolTip>Motion Blur</toolTip>
+      <iconText>Motion Blur</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_invert">
+      <icon/>
+      <text>&amp;Invert</text>
+      <whatsThis/>
+      <toolTip>Invert</toolTip>
+      <iconText>Invert</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+I</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_perchannel">
+      <icon/>
+      <text>&amp;Color Adjustment curves...</text>
+      <whatsThis/>
+      <toolTip>Color Adjustment curves</toolTip>
+      <iconText>Color Adjustment curves</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+M</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_pixelize">
+      <icon/>
+      <text>Pi&amp;xelize...</text>
+      <whatsThis/>
+      <toolTip>Pixelize</toolTip>
+      <iconText>Pixelize</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss laplascian">
+      <icon/>
+      <text>Emboss (&amp;Laplacian)</text>
+      <whatsThis/>
+      <toolTip>Emboss (Laplacian)</toolTip>
+      <iconText>Emboss (Laplacian)</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_left edge detections">
+      <icon/>
+      <text>&amp;Left Edge Detection</text>
+      <whatsThis/>
+      <toolTip>Left Edge Detection</toolTip>
+      <iconText>Left Edge Detection</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_blur">
+      <icon/>
+      <text>&amp;Blur...</text>
+      <whatsThis/>
+      <toolTip>Blur</toolTip>
+      <iconText>Blur</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_raindrops">
+      <icon/>
+      <text>&amp;Raindrops...</text>
+      <whatsThis/>
+      <toolTip>Raindrops</toolTip>
+      <iconText>Raindrops</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_bottom edge detections">
+      <icon/>
+      <text>&amp;Bottom Edge Detection</text>
+      <whatsThis/>
+      <toolTip>Bottom Edge Detection</toolTip>
+      <iconText>Bottom Edge Detection</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_noise">
+      <icon/>
+      <text>&amp;Random Noise...</text>
+      <whatsThis/>
+      <toolTip>Random Noise</toolTip>
+      <iconText>Random Noise</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_brightnesscontrast">
+      <icon/>
+      <text>&amp;Brightness/Contrast curve...</text>
+      <whatsThis/>
+      <toolTip>Brightness/Contrast curve</toolTip>
+      <iconText>Brightness/Contrast curve</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_colorbalance">
+      <icon/>
+      <text>Colo&amp;r Balance...</text>
+      <whatsThis/>
+      <toolTip>Color Balance</toolTip>
+      <iconText>Color Balance</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+B</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_phongbumpmap">
+      <icon/>
+      <text>&amp;Phong Bumpmap...</text>
+      <whatsThis/>
+      <toolTip>Phong Bumpmap</toolTip>
+      <iconText>Phong Bumpmap</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_desaturate">
+      <icon/>
+      <text>&amp;Desaturate</text>
+      <whatsThis/>
+      <toolTip>Desaturate</toolTip>
+      <iconText>Desaturate</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Shift+U</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_colortransfer">
+      <icon/>
+      <text>Color &amp;Transfer...</text>
+      <whatsThis/>
+      <toolTip>Color Transfer</toolTip>
+      <iconText>Color Transfer</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss vertical only">
+      <icon/>
+      <text>Emboss &amp;Vertical Only</text>
+      <whatsThis/>
+      <toolTip>Emboss Vertical Only</toolTip>
+      <iconText>Emboss Vertical Only</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_lens blur">
+      <icon/>
+      <text>&amp;Lens Blur...</text>
+      <whatsThis/>
+      <toolTip>Lens Blur</toolTip>
+      <iconText>Lens Blur</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_minimize">
+      <icon/>
+      <text>M&amp;inimize Channel</text>
+      <whatsThis/>
+      <toolTip>Minimize Channel</toolTip>
+      <iconText>Minimize Channel</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_maximize">
+      <icon/>
+      <text>M&amp;aximize Channel</text>
+      <whatsThis/>
+      <toolTip>Maximize Channel</toolTip>
+      <iconText>Maximize Channel</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_oilpaint">
+      <icon/>
+      <text>&amp;Oilpaint...</text>
+      <whatsThis/>
+      <toolTip>Oilpaint</toolTip>
+      <iconText>Oilpaint</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_right edge detections">
+      <icon/>
+      <text>&amp;Right Edge Detection</text>
+      <whatsThis/>
+      <toolTip>Right Edge Detection</toolTip>
+      <iconText>Right Edge Detection</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_autocontrast">
+      <icon/>
+      <text>&amp;Auto Contrast</text>
+      <whatsThis/>
+      <toolTip>Auto Contrast</toolTip>
+      <iconText>Auto Contrast</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_roundcorners">
+      <icon/>
+      <text>&amp;Round Corners...</text>
+      <whatsThis/>
+      <toolTip>Round Corners</toolTip>
+      <iconText>Round Corners</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_unsharp">
+      <icon/>
+      <text>&amp;Unsharp Mask...</text>
+      <whatsThis/>
+      <toolTip>Unsharp Mask</toolTip>
+      <iconText>Unsharp Mask</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss">
+      <icon/>
+      <text>&amp;Emboss with Variable Depth...</text>
+      <whatsThis/>
+      <toolTip>Emboss with Variable Depth</toolTip>
+      <iconText>Emboss with Variable Depth</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_emboss horizontal and vertical">
+      <icon/>
+      <text>Emboss &amp;Horizontal &amp;&amp; Vertical</text>
+      <whatsThis/>
+      <toolTip>Emboss Horizontal &amp; Vertical</toolTip>
+      <iconText>Emboss Horizontal &amp; Vertical</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_randompick">
+      <icon/>
+      <text>Random &amp;Pick...</text>
+      <whatsThis/>
+      <toolTip>Random Pick</toolTip>
+      <iconText>Random Pick</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_gaussiannoisereducer">
+      <icon/>
+      <text>&amp;Gaussian Noise Reduction...</text>
+      <whatsThis/>
+      <toolTip>Gaussian Noise Reduction</toolTip>
+      <iconText>Gaussian Noise Reduction</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_posterize">
+      <icon/>
+      <text>&amp;Posterize...</text>
+      <whatsThis/>
+      <toolTip>Posterize</toolTip>
+      <iconText>Posterize</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_waveletnoisereducer">
+      <icon/>
+      <text>&amp;Wavelet Noise Reducer...</text>
+      <whatsThis/>
+      <toolTip>Wavelet Noise Reducer</toolTip>
+      <iconText>Wavelet Noise Reducer</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="krita_filter_hsvadjustment">
+      <icon/>
+      <text>&amp;HSV Adjustment...</text>
+      <whatsThis/>
+      <toolTip>HSV Adjustment</toolTip>
+      <iconText>HSV Adjustment</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+U</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+  <Actions category="Blending Modes">
+    <text>Blending Modes</text>
+    <Action name="Next Blending Mode">
+      <icon/>
+      <text>Next Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Next Blending Mode</toolTip>
+      <iconText>Next Blending Mode</iconText>
+      <shortcut>Alt+Shift++</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Previous Blending Mode">
+      <icon/>
+      <text>Previous Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Previous Blending Mode</toolTip>
+      <iconText>Previous Blending Mode</iconText>
+      <shortcut>Alt+Shift+-</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Normal Blending Mode">
+      <icon/>
+      <text>Select Normal Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Normal Blending Mode</toolTip>
+      <iconText>Select Normal Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+N</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Dissolve Blending Mode">
+      <icon/>
+      <text>Select Dissolve Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Dissolve Blending Mode</toolTip>
+      <iconText>Select Dissolve Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+I</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Behind Blending Mode">
+      <icon/>
+      <text>Select Behind Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Behind Blending Mode</toolTip>
+      <iconText>Select Behind Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+Q</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Clear Blending Mode">
+      <icon/>
+      <text>Select Clear Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Clear Blending Mode</toolTip>
+      <iconText>Select Clear Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+R</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Darken Blending Mode">
+      <icon/>
+      <text>Select Darken Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Darken Blending Mode</toolTip>
+      <iconText>Select Darken Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+K</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Multiply Blending Mode">
+      <icon/>
+      <text>Select Multiply Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Multiply Blending Mode</toolTip>
+      <iconText>Select Multiply Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+M</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Color Burn Blending Mode">
+      <icon/>
+      <text>Select Color Burn Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Color Burn Blending Mode</toolTip>
+      <iconText>Select Color Burn Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+B</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Linear Burn Blending Mode">
+      <icon/>
+      <text>Select Linear Burn Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Linear Burn Blending Mode</toolTip>
+      <iconText>Select Linear Burn Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+A</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Lighten Blending Mode">
+      <icon/>
+      <text>Select Lighten Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Lighten Blending Mode</toolTip>
+      <iconText>Select Lighten Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+G</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Screen Blending Mode">
+      <icon/>
+      <text>Select Screen Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Screen Blending Mode</toolTip>
+      <iconText>Select Screen Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+S</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Color Dodge Blending Mode">
+      <icon/>
+      <text>Select Color Dodge Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Color Dodge Blending Mode</toolTip>
+      <iconText>Select Color Dodge Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+D</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Linear Dodge Blending Mode">
+      <icon/>
+      <text>Select Linear Dodge Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Linear Dodge Blending Mode</toolTip>
+      <iconText>Select Linear Dodge Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+W</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Overlay Blending Mode">
+      <icon/>
+      <text>Select Overlay Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Overlay Blending Mode</toolTip>
+      <iconText>Select Overlay Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+O</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Hard Overlay Blending Mode">
+      <icon/>
+      <text>Select Hard Overlay Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Hard Overlay Blending Mode</toolTip>
+      <iconText>Select Hard Overlay Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+P</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Soft Light Blending Mode">
+      <icon/>
+      <text>Select Soft Light Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Soft Light Blending Mode</toolTip>
+      <iconText>Select Soft Light Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+F</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Hard Light Blending Mode">
+      <icon/>
+      <text>Select Hard Light Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Hard Light Blending Mode</toolTip>
+      <iconText>Select Hard Light Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+H</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Vivid Light Blending Mode">
+      <icon/>
+      <text>Select Vivid Light Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Vivid Light Blending Mode</toolTip>
+      <iconText>Select Vivid Light Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+V</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Linear Light Blending Mode">
+      <icon/>
+      <text>Select Linear Light Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Linear Light Blending Mode</toolTip>
+      <iconText>Select Linear Light Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+J</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Pin Light Blending Mode">
+      <icon/>
+      <text>Select Pin Light Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Pin Light Blending Mode</toolTip>
+      <iconText>Select Pin Light Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+Z</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Hard Mix Blending Mode">
+      <icon/>
+      <text>Select Hard Mix Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Hard Mix Blending Mode</toolTip>
+      <iconText>Select Hard Mix Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+L</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Difference Blending Mode">
+      <icon/>
+      <text>Select Difference Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Difference Blending Mode</toolTip>
+      <iconText>Select Difference Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+E</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Exclusion Blending Mode">
+      <icon/>
+      <text>Select Exclusion Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Exclusion Blending Mode</toolTip>
+      <iconText>Select Exclusion Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+X</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Hue Blending Mode">
+      <icon/>
+      <text>Select Hue Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Hue Blending Mode</toolTip>
+      <iconText>Select Hue Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+U</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Saturation Blending Mode">
+      <icon/>
+      <text>Select Saturation Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Saturation Blending Mode</toolTip>
+      <iconText>Select Saturation Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+T</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Color Blending Mode">
+      <icon/>
+      <text>Select Color Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Color Blending Mode</toolTip>
+      <iconText>Select Color Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+C</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="Select Luminosity Blending Mode">
+      <icon/>
+      <text>Select Luminosity Blending Mode</text>
+      <whatsThis/>
+      <toolTip>Select Luminosity Blending Mode</toolTip>
+      <iconText>Select Luminosity Blending Mode</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Alt+Shift+Y</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+  <Actions category="Animation">
+    <text>Animation</text>
+    <Action name="previous_frame">
+      <icon>prevframe</icon>
+      <text>Previous Frame</text>
+      <whatsThis/>
+      <toolTip>Change time to previous frame</toolTip>
+      <iconText>Change time to previous frame</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="next_frame">
+      <icon>nextframe</icon>
+      <text>Next Frame</text>
+      <whatsThis/>
+      <toolTip>Change time to next frame</toolTip>
+      <iconText>Change time to next frame</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="previous_keyframe">
+      <icon>prevkeyframe</icon>
+      <text>Previous Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to previous keyframe</toolTip>
+      <iconText>Change time to previous keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="next_keyframe">
+      <icon>nextkeyframe</icon>
+      <text>Next Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to next keyframe</toolTip>
+      <iconText>Change time to next keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="previous_matching_keyframe">
+      <icon>prevkeyframe</icon>
+      <text>Previous Matching Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to previous keyframe of the same color</toolTip>
+      <iconText>Change time to previous matching keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="next_matching_keyframe">
+      <icon>nextkeyframe</icon>
+      <text>Next Matching Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to next keyframe of the same color</toolTip>
+      <iconText>Change time to next matching keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="previous_unfiltered_keyframe">
+      <icon>prevkeyframe</icon>
+      <text>Previous Unfiltered Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to previous keyframe that has visible onion skin</toolTip>
+      <iconText>Change time to previous matching keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="next_unfiltered_keyframe">
+      <icon>nextkeyframe</icon>
+      <text>Next Unfiltered Keyframe</text>
+      <whatsThis/>
+      <toolTip>Change time to next keyframe that has visible onion skin</toolTip>
+      <iconText>Change time to next matching keyframe</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_playback">
+      <icon>animation_play</icon>
+      <text>Play / pause animation</text>
+      <whatsThis/>
+      <toolTip>Play / pause animation</toolTip>
+      <iconText>Play / pause animation</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="stop_playback">
+      <icon>animation_stop</icon>
+      <text>Stop animation</text>
+      <whatsThis/>
+      <toolTip>Stop animation</toolTip>
+      <iconText>Stop animation</iconText>
+      <activationFlags>1</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_blank_frame">
+      <icon>addblankframe</icon>
+      <text>Create Blank Frame</text>
+      <whatsThis/>
+      <toolTip>Add blank frame</toolTip>
+      <iconText>Add blank frame</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_duplicate_frame">
+      <icon>addduplicateframe</icon>
+      <text>Create Duplicate Frame</text>
+      <whatsThis/>
+      <toolTip>Add duplicate frame</toolTip>
+      <iconText>Add duplicate frame</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_onion_skin">
+      <icon/>
+      <text>Toggle onion skin</text>
+      <whatsThis/>
+      <toolTip>Toggle onion skin</toolTip>
+      <iconText>Toggle onion skin</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="first_frame">
+      <icon/>
+      <text>First Frame</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="last_frame">
+      <icon/>
+      <text>Last Frame</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="auto_key">
+      <icon/>
+      <text>Auto Frame Mode</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="drop_frames">
+      <icon>dropframe</icon>
+      <text>Drop Frames</text>
+      <whatsThis/>
+      <toolTip>Drop Frames, enable to preserve playback timing.</toolTip>
+      <iconText/>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="pin_to_timeline">
+      <icon/>
+      <text>Pin to Timeline</text>
+      <whatsThis/>
+      <toolTip>If checked, layer becomes pinned to the timeline, making it visible even when inactive.</toolTip>
+      <iconText/>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_keyframe_left">
+      <icon/>
+      <text>Insert Keyframe Left</text>
+      <whatsThis/>
+      <toolTip>Insert keyframes to the left of selection, moving the tail of animation to the right.</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_keyframe_right">
+      <icon/>
+      <text>Insert Keyframe Right</text>
+      <whatsThis/>
+      <toolTip>Insert keyframes to the right of selection, moving the tail of animation to the right.</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_multiple_keyframes">
+      <icon/>
+      <text>Insert Multiple Keyframes</text>
+      <whatsThis/>
+      <toolTip>Insert several keyframes based on user parameters.</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_frames_and_pull">
+      <icon/>
+      <text>Remove Frame and Pull</text>
+      <whatsThis/>
+      <toolTip>Remove keyframes moving the tail of animation to the left</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_frames">
+      <icon>deletekeyframe</icon>
+      <text>Remove Keyframe</text>
+      <whatsThis/>
+      <toolTip>Remove keyframes without moving anything around</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_column_left">
+      <icon/>
+      <text>Insert Column Left</text>
+      <whatsThis/>
+      <toolTip>Insert column to the left of selection, moving the tail of animation to the right</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_column_right">
+      <icon/>
+      <text>Insert Column Right</text>
+      <whatsThis/>
+      <toolTip>Insert column to the right of selection, moving the tail of animation to the right</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_multiple_columns">
+      <icon/>
+      <text>Insert Multiple Columns</text>
+      <whatsThis/>
+      <toolTip>Insert several columns based on user parameters.</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_columns_and_pull">
+      <icon/>
+      <text>Remove Column and Pull</text>
+      <whatsThis/>
+      <toolTip>Remove columns moving the tail of animation to the left</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_columns">
+      <icon/>
+      <text>Remove Column</text>
+      <whatsThis/>
+      <toolTip>Remove columns without moving anything around</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_hold_frame">
+      <icon/>
+      <text>Insert Hold Frame</text>
+      <whatsThis/>
+      <toolTip>Insert a hold frame after every keyframe</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_multiple_hold_frames">
+      <icon/>
+      <text>Insert Multiple Hold Frames</text>
+      <whatsThis/>
+      <toolTip>Insert N hold frames after every keyframe</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_hold_frame">
+      <icon/>
+      <text>Remove Hold Frame</text>
+      <whatsThis/>
+      <toolTip>Remove a hold frame after every keyframe</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_multiple_hold_frames">
+      <icon/>
+      <text>Remove Multiple Hold Frames</text>
+      <whatsThis/>
+      <toolTip>Remove N hold frames after every keyframe</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_hold_column">
+      <icon/>
+      <text>Insert Hold Column</text>
+      <whatsThis/>
+      <toolTip>Insert a hold column into the frame at the current position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="insert_multiple_hold_columns">
+      <icon/>
+      <text>Insert Multiple Hold Columns</text>
+      <whatsThis/>
+      <toolTip>Insert N hold columns into the frame at the current position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_hold_column">
+      <icon/>
+      <text>Remove Hold Column</text>
+      <whatsThis/>
+      <toolTip>Remove a hold column from the frame at the current position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_multiple_hold_columns">
+      <icon/>
+      <text>Remove Multiple Hold Columns</text>
+      <whatsThis/>
+      <toolTip>Remove N hold columns from the frame at the current position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_scalar_keyframes">
+      <icon></icon>
+      <text>Add scalar keyframes</text>
+      <whatsThis></whatsThis>
+      <toolTip>Adds keyframe to control scalar property</toolTip>
+      <iconText></iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_scalar_keyframe">
+      <icon></icon>
+      <text>Remove scalar keyframe</text>
+      <whatsThis></whatsThis>
+      <toolTip>Removes the selected scalar keyframe</toolTip>
+      <iconText></iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirror_frames">
+      <icon/>
+      <text>Mirror Frames</text>
+      <whatsThis/>
+      <toolTip>Mirror frames' position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirror_columns">
+      <icon/>
+      <text>Mirror Columns</text>
+      <whatsThis/>
+      <toolTip>Mirror columns' position</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="clear_animation_cache">
+        <icon/>
+        <text>Clear Cache</text>
+        <whatsThis/>
+        <toolTip>Clear entire animation cache. Useful for debugging.</toolTip>
+        <iconText/>
+        <activationFlags>100000</activationFlags>
+        <activationConditions>0</activationConditions>
+        <shortcut/>
+        <isCheckable>false</isCheckable>
+        <statusTip/>
+    </Action>
+    <Action name="copy_frames">
+      <icon/>
+      <text>Copy Keyframes</text>
+      <whatsThis/>
+      <toolTip>Copy frames to clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="copy_frames_as_clones">
+      <icon/>
+      <text>Clone Keyframes</text>
+      <whatsThis/>
+      <toolTip>Clone frames to clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="make_clones_unique">
+      <icon/>
+      <text>Make Unique</text>
+      <whatsThis/>
+      <toolTip>Convert clones to unique keyframe instances.</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="cut_frames">
+      <icon/>
+      <text>Cut Keyframes</text>
+      <whatsThis/>
+      <toolTip>Cut frames to clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="paste_frames">
+      <icon/>
+      <text>Paste Keyframes</text>
+      <whatsThis/>
+      <toolTip>Paste frames from clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="copy_columns_to_clipboard">
+      <icon/>
+      <text>Copy Columns</text>
+      <whatsThis/>
+      <toolTip>Copy columns to clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="cut_columns_to_clipboard">
+      <icon/>
+      <text>Cut Columns</text>
+      <whatsThis/>
+      <toolTip>Cut columns to clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="paste_columns_from_clipboard">
+      <icon/>
+      <text>Paste Columns</text>
+      <whatsThis/>
+      <toolTip>Paste columns from clipboard</toolTip>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_start_time">
+      <icon/>
+      <text>Set Start Time</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set_end_time">
+      <icon/>
+      <text>Set End Time</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="update_playback_range">
+      <icon/>
+      <text>Update Playback Range</text>
+      <whatsThis/>
+      <toolTip/>
+      <iconText/>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+  <Actions category="Layers">
+    <text>Layers</text>
+    <Action name="activateNextLayer">
+      <icon>activate-next-layer</icon>
+      <text>Activate next layer</text>
+      <whatsThis/>
+      <toolTip>Activate next layer</toolTip>
+      <iconText>Activate next layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>PgUp</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="activateNextSiblingLayer">
+      <icon/>
+      <text>Activate next sibling layer, skipping over groups.</text>
+      <whatsThis/>
+      <toolTip>Activate next sibling layer</toolTip>
+      <iconText>Activate next sibling layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="activatePreviousLayer">
+      <icon>activate-previous-layer</icon>
+      <text>Activate previous layer</text>
+      <whatsThis/>
+      <toolTip>Activate previous layer</toolTip>
+      <iconText>Activate previous layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>PgDown</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="activatePreviousSiblingLayer">
+      <icon/>
+      <text>Activate previous sibling layer, skipping over groups.</text>
+      <whatsThis/>
+      <toolTip>Activate previous sibling layer</toolTip>
+      <iconText>Activate previous sibling layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="switchToPreviouslyActiveNode">
+      <icon/>
+      <text>Activate previously selected layer</text>
+      <whatsThis/>
+      <toolTip>Activate previously selected layer</toolTip>
+      <iconText>Activate previously selected layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>;</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_group_layer">
+      <icon>groupLayer</icon>
+      <text>Add &amp;Group Layer</text>
+      <whatsThis/>
+      <toolTip>Add a new Group Layer</toolTip>
+      <iconText>Group Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_clone_layer">
+      <icon>cloneLayer</icon>
+      <text>Add &amp;Clone Layer</text>
+      <whatsThis/>
+      <toolTip>Add a new Clone Layer</toolTip>
+      <iconText>Clone Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_shape_layer">
+      <icon>vectorLayer</icon>
+      <text>Add &amp;Vector Layer</text>
+      <whatsThis/>
+      <toolTip>Add a new Vector Layer</toolTip>
+      <iconText>Vector Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Shift+Insert</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_adjustment_layer">
+      <icon>filterLayer</icon>
+      <text>Add &amp;Filter Layer...</text>
+      <whatsThis/>
+      <toolTip>Add a new Filter Layer</toolTip>
+      <iconText>Filter Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_fill_layer">
+      <icon>fillLayer</icon>
+      <text>Add &amp;Fill Layer...</text>
+      <whatsThis/>
+      <toolTip>Add a new Fill Layer</toolTip>
+      <iconText>Fill Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_file_layer">
+      <icon>fileLayer</icon>
+      <text>Add &amp;File Layer...</text>
+      <whatsThis/>
+      <toolTip>Add a new File Layer</toolTip>
+      <iconText>File Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_transparency_mask">
+      <icon>transparencyMask</icon>
+      <text>Add &amp;Transparency Mask</text>
+      <whatsThis/>
+      <toolTip>Add a new Transparency Mask</toolTip>
+      <iconText>Transparency Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_filter_mask">
+      <icon>filterMask</icon>
+      <text>Add &amp;Filter Mask...</text>
+      <whatsThis/>
+      <toolTip>Add a new Filter Mask</toolTip>
+      <iconText>Filter Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_colorize_mask">
+      <icon>filterMask</icon>
+      <text>Add &amp;Colorize Mask</text>
+      <whatsThis/>
+      <toolTip>Add a new Colorize Mask</toolTip>
+      <iconText>Colorize Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_transform_mask">
+      <icon>transformMask</icon>
+      <text>Add &amp;Transform Mask</text>
+      <whatsThis/>
+      <toolTip>Add a new Transform Mask</toolTip>
+      <iconText>Transform Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_selection_mask">
+      <icon>selectionMask</icon>
+      <text>Add &amp;Local Selection</text>
+      <whatsThis/>
+      <toolTip>Add a new Local Selection</toolTip>
+      <iconText>Local Selection</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="isolate_active_layer">
+      <icon>view-filter</icon>
+      <text>&amp;Isolate Active Layer</text>
+      <whatsThis/>
+      <toolTip>Isolate Active Layer</toolTip>
+      <iconText>Isolate Active Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="isolate_active_group">
+      <icon>view-filter</icon>
+      <text>&amp;Isolate Active Group</text>
+      <whatsThis/>
+      <toolTip>Isolate Active Group</toolTip>
+      <iconText>Isolate Active Group</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>true</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_layer_lock">
+      <icon>layer-locked</icon>
+      <text>&amp;Toggle layer lock</text>
+      <whatsThis/>
+      <toolTip>Toggle layer lock</toolTip>
+      <iconText>Toggle layer lock</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_layer_visibility">
+      <icon>visible</icon>
+      <text>Toggle layer &amp;visibility</text>
+      <whatsThis/>
+      <toolTip>Toggle layer visibility</toolTip>
+      <iconText>Toggle layer visibility</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_layer_soloing">
+      <icon>visible</icon>
+      <text>Toggle Layer Soloing</text>
+      <whatsThis/>
+      <toolTip>Toggle layer soloing, temporarily disabling visibility of all non-child layers.</toolTip>
+      <iconText>Toggle layer soloing</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_layer_alpha_lock">
+      <icon>transparency-locked</icon>
+      <text>Toggle layer &amp;alpha</text>
+      <whatsThis/>
+      <toolTip>Toggle layer alpha</toolTip>
+      <iconText>Toggle layer alpha</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="toggle_layer_inherit_alpha">
+      <icon>transparency-enabled</icon>
+      <text>Toggle layer alpha &amp;inheritance</text>
+      <whatsThis/>
+      <toolTip>Toggle layer alpha inheritance</toolTip>
+      <iconText>Toggle layer alpha inheritance</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="add_new_paint_layer">
+      <icon>paintLayer</icon>
+      <text>Add &amp;Paint Layer</text>
+      <whatsThis/>
+      <toolTip>Add a new Paint Layer</toolTip>
+      <iconText>Paint Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Insert</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="new_from_visible">
+      <icon/>
+      <text>&amp;New Layer From Visible</text>
+      <whatsThis/>
+      <toolTip>New layer from visible</toolTip>
+      <iconText>New layer from visible</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="duplicatelayer">
+      <icon>duplicatelayer</icon>
+      <text>&amp;Duplicate Layer or Mask</text>
+      <whatsThis/>
+      <toolTip>Duplicate Layer or Mask</toolTip>
+      <iconText>Duplicate Layer or Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+J</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="cut_selection_to_new_layer">
+      <icon/>
+      <text>&amp;Cut Selection to New Layer</text>
+      <whatsThis/>
+      <toolTip>Cut Selection to New Layer</toolTip>
+      <iconText>Cut Selection to New Layer</iconText>
+      <activationFlags>100000000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut>Ctrl+Shift+J</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="copy_selection_to_new_layer">
+      <icon/>
+      <text>Copy &amp;Selection to New Layer</text>
+      <whatsThis/>
+      <toolTip>Copy Selection to New Layer</toolTip>
+      <iconText>Copy Selection to New Layer</iconText>
+      <activationFlags>100000000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Alt+J</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="copy_layer_clipboard">
+      <icon/>
+      <text>Copy Layer</text>
+      <whatsThis/>
+      <toolTip>Copy layer to clipboard</toolTip>
+      <iconText>Copy layer to clipboard</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="cut_layer_clipboard">
+      <icon/>
+      <text>Cut Layer</text>
+      <whatsThis/>
+      <toolTip>Cut layer to clipboard</toolTip>
+      <iconText>Cut layer to clipboard</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="paste_layer_from_clipboard">
+      <icon/>
+      <text>Paste Layer</text>
+      <whatsThis/>
+      <toolTip>Paste layer from clipboard</toolTip>
+      <iconText>Paste layer from clipboard</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="create_quick_group">
+      <icon/>
+      <text>Quick Group</text>
+      <whatsThis/>
+      <toolTip>Create a group layer containing selected layers</toolTip>
+      <iconText>Quick Group</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+G</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="quick_ungroup">
+      <icon/>
+      <text>Quick Ungroup</text>
+      <whatsThis/>
+      <toolTip>Remove grouping of the layers or remove one layer out of the group</toolTip>
+      <iconText>Quick Ungroup</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Alt+G</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="create_quick_clipping_group">
+      <icon/>
+      <text>Quick Clipping Group</text>
+      <whatsThis/>
+      <toolTip>Group selected layers and add a layer with clipped alpha channel</toolTip>
+      <iconText>Quick Clipping Group</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Shift+G</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="select_all_layers">
+      <icon/>
+      <text>All Layers</text>
+      <whatsThis/>
+      <toolTip>Select all layers</toolTip>
+      <iconText>Select all layers</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="select_visible_layers">
+      <icon/>
+      <text>Visible Layers</text>
+      <whatsThis/>
+      <toolTip>Select all visible layers</toolTip>
+      <iconText>Select all visible layers</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="select_locked_layers">
+      <icon/>
+      <text>Locked Layers</text>
+      <whatsThis/>
+      <toolTip>Select all locked layers</toolTip>
+      <iconText>Select all locked layers</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="select_invisible_layers">
+      <icon/>
+      <text>Invisible Layers</text>
+      <whatsThis/>
+      <toolTip>Select all invisible layers</toolTip>
+      <iconText>Select all invisible layers</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="select_unlocked_layers">
+      <icon/>
+      <text>Unlocked Layers</text>
+      <whatsThis/>
+      <toolTip>Select all unlocked layers</toolTip>
+      <iconText>Select all unlocked layers</iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="save_node_as_image">
+      <icon>document-save</icon>
+      <text>&amp;Save Layer/Mask...</text>
+      <whatsThis/>
+      <toolTip>Save Layer/Mask</toolTip>
+      <iconText>Save Layer/Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="save_vector_node_to_svg">
+      <icon>document-save</icon>
+      <text>Save Vector Layer as SVG...</text>
+      <whatsThis/>
+      <toolTip>Save Vector Layer as SVG</toolTip>
+      <iconText>Save Vector Layer as SVG</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="save_groups_as_images">
+      <icon>document-save</icon>
+      <text>Save &amp;Group Layers...</text>
+      <whatsThis/>
+      <toolTip>Save Group Layers</toolTip>
+      <iconText>Save Group Layers</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_group_to_animated">
+      <icon/>
+      <text>Convert group to &amp;animated layer</text>
+      <whatsThis/>
+      <toolTip>Convert child layers into animation frames</toolTip>
+      <iconText>Convert child layers into animation frames</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_animated">
+      <icon/>
+      <text>Convert to &amp;animated layer</text>
+      <whatsThis/>
+      <toolTip>Convert layer into animation frames</toolTip>
+      <iconText>Convert layer into animation frames</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_file_layer">
+      <icon>convert-to-fileLayer</icon>
+      <text>to &amp;File Layer...</text>
+      <whatsThis/>
+      <toolTip>Saves out the layers into a new image and then references that image.</toolTip>
+      <iconText>Convert to File Layer</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="import_layer_from_file">
+      <icon/>
+      <text>I&amp;mport Layer...</text>
+      <whatsThis/>
+      <toolTip>Import Layer</toolTip>
+      <iconText>Import Layer</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="import_layer_as_paint_layer">
+      <icon>import-as-paintLayer</icon>
+      <text>&amp;as Paint Layer...</text>
+      <whatsThis/>
+      <toolTip>as Paint Layer</toolTip>
+      <iconText>as Paint Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="import_layer_as_transparency_mask">
+      <icon>import-as-transparencyMask</icon>
+      <text>as &amp;Transparency Mask...</text>
+      <whatsThis/>
+      <toolTip>as Transparency Mask</toolTip>
+      <iconText>as Transparency Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="import_layer_as_filter_mask">
+      <icon>import-as-filterMask</icon>
+      <text>as &amp;Filter Mask...</text>
+      <whatsThis/>
+      <toolTip>as Filter Mask</toolTip>
+      <iconText>as Filter Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="import_layer_as_selection_mask">
+      <icon>import-as-selectionMask</icon>
+      <text>as &amp;Selection Mask...</text>
+      <whatsThis/>
+      <toolTip>as Selection Mask</toolTip>
+      <iconText>as Selection Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_paint_layer">
+      <icon>convert-to-paintLayer</icon>
+      <text>Convert to &amp;Paint Layer</text>
+      <whatsThis/>
+      <toolTip>to Paint Layer</toolTip>
+      <iconText>to Paint Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_transparency_mask">
+      <icon>convert-to-transparencyMask</icon>
+      <text>Convert to &amp;Transparency Mask</text>
+      <whatsThis/>
+      <toolTip>to Transparency Mask</toolTip>
+      <iconText>to Transparency Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_filter_mask">
+      <icon>convert-to-filterMask</icon>
+      <text>Convert to &amp;Filter Mask...</text>
+      <whatsThis/>
+      <toolTip>to Filter Mask</toolTip>
+      <iconText>to Filter Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="convert_to_selection_mask">
+      <icon>convert-to-selectionMask</icon>
+      <text>Convert to &amp;Selection Mask</text>
+      <whatsThis/>
+      <toolTip>to Selection Mask</toolTip>
+      <iconText>to Selection Mask</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="split_alpha_into_mask">
+      <icon>alpha-into-mask</icon>
+      <text>&amp;Alpha into Mask</text>
+      <whatsThis/>
+      <toolTip>Alpha into Mask</toolTip>
+      <iconText>Alpha into Mask</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>10</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="split_alpha_write">
+      <icon>transparency-enabled</icon>
+      <text>&amp;Write as Alpha</text>
+      <whatsThis/>
+      <toolTip>Write as Alpha</toolTip>
+      <iconText>Write as Alpha</iconText>
+      <activationFlags>1000000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="split_alpha_save_merged">
+      <icon>document-save</icon>
+      <text>&amp;Save Merged...</text>
+      <whatsThis/>
+      <toolTip>Save Merged</toolTip>
+      <iconText>Save Merged</iconText>
+      <activationFlags>1000000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="layersplit">
+      <icon>split-layer</icon>
+      <text>Split Layer...</text>
+      <whatsThis/>
+      <toolTip>Split Layer</toolTip>
+      <iconText>Split Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="waveletdecompose">
+      <icon/>
+      <text>Wavelet Decompose ...</text>
+      <whatsThis/>
+      <toolTip>Wavelet Decompose</toolTip>
+      <iconText>Wavelet Decompose</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorNodeX">
+      <icon>symmetry-horizontal</icon>
+      <text>Mirror Layer Hori&amp;zontally</text>
+      <whatsThis/>
+      <toolTip>Mirror Layer Horizontally</toolTip>
+      <iconText>Mirror Layer Horizontally</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorNodeY">
+      <icon>symmetry-vertical</icon>
+      <text>Mirror Layer &amp;Vertically</text>
+      <whatsThis/>
+      <toolTip>Mirror Layer Vertically</toolTip>
+      <iconText>Mirror Layer Vertically</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotatelayer">
+      <icon/>
+      <text>&amp;Rotate Layer...</text>
+      <whatsThis/>
+      <toolTip>Rotate Layer</toolTip>
+      <iconText>Rotate Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateLayerCW90">
+      <icon>object-rotate-right</icon>
+      <text>Rotate &amp;Layer 90° to the Right</text>
+      <whatsThis/>
+      <toolTip>Rotate Layer 90° to the Right</toolTip>
+      <iconText>Rotate Layer 90° to the Right</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateLayerCCW90">
+      <icon>object-rotate-left</icon>
+      <text>Rotate Layer &amp;90° to the Left</text>
+      <whatsThis/>
+      <toolTip>Rotate Layer 90° to the Left</toolTip>
+      <iconText>Rotate Layer 90° to the Left</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateLayer180">
+      <icon/>
+      <text>Rotate Layer &amp;180°</text>
+      <whatsThis/>
+      <toolTip>Rotate Layer 180°</toolTip>
+      <iconText>Rotate Layer 180°</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="layersize">
+      <icon/>
+      <text>Scale &amp;Layer to new Size...</text>
+      <whatsThis/>
+      <toolTip>Scale Layer to new Size</toolTip>
+      <iconText>Scale Layer to new Size</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="shearlayer">
+      <icon/>
+      <text>&amp;Shear Layer...</text>
+      <whatsThis/>
+      <toolTip>Shear Layer</toolTip>
+      <iconText>Shear Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorAllNodesX">
+      <icon>symmetry-horizontal</icon>
+      <text>Mirror All Layers Hori&amp;zontally</text>
+      <whatsThis/>
+      <toolTip>Mirror All Layers Horizontally</toolTip>
+      <iconText>Mirror All Layers Horizontally</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="mirrorAllNodesY">
+      <icon>symmetry-vertical</icon>
+      <text>Mirror All Layers &amp;Vertically</text>
+      <whatsThis/>
+      <toolTip>Mirror All Layers Vertically</toolTip>
+      <iconText>Mirror All Layers Vertically</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateAllLayers">
+      <icon/>
+      <text>&amp;Rotate All Layers...</text>
+      <whatsThis/>
+      <toolTip>Rotate All Layers</toolTip>
+      <iconText>Rotate All Layers</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateAllLayersCW90">
+      <icon>object-rotate-right</icon>
+      <text>Rotate All &amp;Layers 90° to the Right</text>
+      <whatsThis/>
+      <toolTip>Rotate All Layers 90° to the Right</toolTip>
+      <iconText>Rotate All Layers 90° to the Right</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateAllLayersCCW90">
+      <icon>object-rotate-left</icon>
+      <text>Rotate All Layers &amp;90° to the Left</text>
+      <whatsThis/>
+      <toolTip>Rotate All Layers 90° to the Left</toolTip>
+      <iconText>Rotate All Layers 90° to the Left</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="rotateAllLayers180">
+      <icon/>
+      <text>Rotate All Layers &amp;180°</text>
+      <whatsThis/>
+      <toolTip>Rotate All Layers 180°</toolTip>
+      <iconText>Rotate All Layers 180°</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="scaleAllLayers">
+      <icon/>
+      <text>Scale All &amp;Layers to new Size...</text>
+      <whatsThis/>
+      <toolTip>Scale All Layers to new Size</toolTip>
+      <iconText>Scale All Layers to new Size</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="shearAllLayers">
+      <icon/>
+      <text>&amp;Shear All Layers...</text>
+      <whatsThis/>
+      <toolTip>Shear All Layers</toolTip>
+      <iconText>Shear All Layers</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="offsetlayer">
+      <icon/>
+      <text>&amp;Offset Layer...</text>
+      <whatsThis/>
+      <toolTip>Offset Layer</toolTip>
+      <iconText>Offset Layer</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="clones_array">
+      <icon/>
+      <text>Clones &amp;Array...</text>
+      <whatsThis/>
+      <toolTip>Clones Array</toolTip>
+      <iconText>Clones Array</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="EditLayerMetaData">
+      <icon/>
+      <text>&amp;Edit metadata...</text>
+      <whatsThis/>
+      <toolTip>Edit metadata</toolTip>
+      <iconText>Edit metadata</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="histogram">
+      <icon/>
+      <text>&amp;Histogram...</text>
+      <whatsThis/>
+      <toolTip>Histogram</toolTip>
+      <iconText>Histogram</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="layercolorspaceconversion">
+      <icon/>
+      <text>&amp;Convert Layer Color Space...</text>
+      <whatsThis/>
+      <toolTip>Convert Layer Color Space</toolTip>
+      <iconText>Convert Layer Color Space</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="merge_layer">
+      <icon>merge-layer-below</icon>
+      <text>&amp;Merge with Layer Below</text>
+      <whatsThis/>
+      <toolTip>Merge with Layer Below</toolTip>
+      <iconText>Merge with Layer Below</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+E</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="flatten_layer">
+      <icon/>
+      <text>&amp;Flatten Layer</text>
+      <whatsThis/>
+      <toolTip>Flatten Layer</toolTip>
+      <iconText>Flatten Layer</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="flatten_image">
+      <icon/>
+      <text>Flatten ima&amp;ge</text>
+      <whatsThis/>
+      <toolTip>Flatten image</toolTip>
+      <iconText>Flatten image</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>Ctrl+Shift+E</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="layer_style">
+      <icon/>
+      <text>La&amp;yer Style...</text>
+      <whatsThis/>
+      <toolTip>Layer Style</toolTip>
+      <iconText>Layer Style</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="LayerGroupSwitcher/previous">
+      <icon/>
+      <text>Move into previous group</text>
+      <whatsThis/>
+      <toolTip>Move into previous group</toolTip>
+      <iconText>Move into previous group</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="LayerGroupSwitcher/next">
+      <icon/>
+      <text>Move into next group</text>
+      <whatsThis/>
+      <toolTip>Move into next group</toolTip>
+      <iconText>Move into next group</iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="RenameCurrentLayer">
+      <icon/>
+      <text>Rename current layer</text>
+      <whatsThis/>
+      <toolTip>Rename current layer</toolTip>
+      <iconText>Rename current layer</iconText>
+      <activationFlags>100000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut>F2</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="remove_layer">
+      <icon>deletelayer</icon>
+      <text>&amp;Remove Layer</text>
+      <whatsThis/>
+      <toolTip>Remove Layer</toolTip>
+      <iconText>Remove Layer</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut>Shift+Delete</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="move_layer_up">
+      <icon>arrowup</icon>
+      <text>Move Layer or Mask Up</text>
+      <whatsThis/>
+      <toolTip>Move Layer or Mask Up</toolTip>
+      <iconText/>
+      <shortcut>Ctrl+PgUp</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="move_layer_down">
+      <icon>arrowdown</icon>
+      <text>Move Layer or Mask Down</text>
+      <whatsThis/>
+      <toolTip>Move Layer or Mask Down</toolTip>
+      <iconText/>
+      <shortcut>Ctrl+PgDown</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="layer_properties">
+      <icon>properties</icon>
+      <text>&amp;Properties...</text>
+      <whatsThis/>
+      <toolTip comment="Layer Properties">Properties</toolTip>
+      <iconText comment="Layer Properties">Properties</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut>F3</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+    <Action name="set-copy-from">
+      <icon/>
+      <text>Set Copy F&amp;rom...</text>
+      <whatsThis/>
+      <toolTip>Set the source for the selected clone layer(s).</toolTip>
+      <iconText>Set Copy From</iconText>
+      <activationFlags>1000</activationFlags>
+      <activationConditions>1</activationConditions>
+      <shortcut/>
+      <isCheckable>false</isCheckable>
+      <statusTip/>
+    </Action>
+  </Actions>
+</ActionCollection>

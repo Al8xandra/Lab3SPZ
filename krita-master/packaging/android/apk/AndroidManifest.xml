@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest package="org.krita" xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application android:hardwareAccelerated="true"
+                 android:name="org.qtproject.qt5.android.bindings.QtApplication"
+                 android:label="Krita"
+                 android:icon="@mipmap/ic_launcher"
+                 android:extractNativeLibs="true" >
+
+        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+                  android:name="org.krita.android.MainActivity"
+                  android:label="Krita"
+                  android:screenOrientation="unspecified"
+                  android:resizeableActivity="true"
+                  android:theme="@style/DefaultTheme"
+                  android:launchMode="singleTask"
+                  android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+
+                <data android:mimeType="application/x-xcf" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/x-r32" />
+                <data android:mimeType="image/x-r16" />
+                <data android:mimeType="image/x-r8" />
+                <data android:mimeType="image/openraster" />
+                <data android:mimeType="image/x-xpixmap" />
+                <data android:mimeType="image/x-xbitmap" />
+                <data android:mimeType="image/webp" />
+                <data android:mimeType="image/vnd.microsoft.icon" />
+                <data android:mimeType="image/x-portable-pixmap" />
+                <data android:mimeType="image/x-portable-graymap" />
+                <data android:mimeType="image/x-portable-bitmap" />
+                <data android:mimeType="image/x-psd" />
+                <data android:mimeType="image/photoshop" />
+                <data android:mimeType="image/x-photoshop" />
+                <data android:mimeType="image/vnd.adobe.photoshop" />
+                <data android:mimeType="image/x-psb" />
+                <data android:mimeType="image/heic" />
+                <data android:mimeType="image/svg+xml" />
+                <data android:mimeType="image/jp2" />
+                <data android:mimeType="image/j2k" />
+                <data android:mimeType="image/x-exr" />
+                <data android:mimeType="image/x-tga" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="image/gif" />
+                <data android:mimeType="image/tiff" />
+                <data android:mimeType="image/x-krita-raw" />
+
+                <data android:mimeType="text/csv" />
+                <data android:mimeType="application/x-krita" />
+                <data android:mimeType="application/x-krita-archive" />
+                <data android:mimeType="application/x-extension-exr" />
+                <data android:mimeType="application/x-krita-paintoppreset" />
+                <data android:mimeType="application/pdf" />
+
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+
+                <!-- NOTE: if host and scheme aren't provided path attributes are ignored  -->
+                <data android:host="*" android:pathPattern=".*\\.kra.*"/>
+                <data android:host="*" android:pathPattern=".*\\.krz.*"/>
+            </intent-filter>
+
+            <!-- without mimeType -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+
+                <!-- NOTE: if host and scheme aren't provided path attributes are ignored  -->
+                <data android:host="*" android:pathPattern=".*\\.kra.*"/>
+                <data android:host="*" android:pathPattern=".*\\.krz.*"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="com.samsung.android.support.REMOTE_ACTION"
+                android:resource="@xml/remote_action"/>
+
+
+            <meta-data android:name="android.app.lib_name" android:value="krita"/>
+            <meta-data android:name="android.app.qt_sources_resource_id" android:resource="@array/qt_sources"/>
+            <meta-data android:name="android.app.repository" android:value="default"/>
+            <meta-data android:name="android.app.qt_libs_resource_id" android:resource="@array/qt_libs"/>
+            <meta-data android:name="android.app.bundled_libs_resource_id" android:resource="@array/bundled_libs"/>
+            <!-- Deploy Qt libs as part of package -->
+            <meta-data android:name="android.app.bundle_local_qt_libs" android:value="1"/>
+            <meta-data android:name="android.app.bundled_in_lib_resource_id" android:resource="@array/bundled_in_lib"/>
+            <meta-data android:name="android.app.bundled_in_assets_resource_id" android:resource="@array/bundled_in_assets"/>
+            <!-- Run with local libs -->
+            <meta-data android:name="android.app.use_local_qt_libs" android:value="1"/>
+            <meta-data android:name="android.app.libs_prefix" android:value="/data/local/tmp/qt/"/>
+            <meta-data android:name="android.app.load_local_libs" android:value="plugins/platforms/android/libqtforandroid.so:plugins/bearer/libqandroidbearer.so:plugins/mediaservice/libqtmedia_android.so"/>
+            <meta-data android:name="android.app.load_local_jars" android:value="jar/QtAndroid.jar:jar/QtAndroidBearer.jar:jar/QtMultimedia.jar"/>
+            <meta-data android:name="android.app.static_init_classes" android:value="org.qtproject.qt5.android.multimedia.QtMultimediaUtils"/>
+
+            <!--  Messages maps -->
+            <meta-data android:value="@string/ministro_not_found_msg" android:name="android.app.ministro_not_found_msg"/>
+            <meta-data android:value="@string/ministro_needed_msg" android:name="android.app.ministro_needed_msg"/>
+            <meta-data android:value="@string/fatal_error_msg" android:name="android.app.fatal_error_msg"/>
+            <!--  Messages maps -->
+
+            <!-- Background running -->
+            <meta-data android:name="android.app.background_running" android:value="false"/>
+            <!-- Background running -->
+
+            <!-- auto screen scale factor -->
+            <meta-data android:name="android.app.auto_screen_scale_factor" android:value="false"/>
+            <!-- auto screen scale factor -->
+
+            <!-- extract android style -->
+            <meta-data android:name="android.app.extract_android_style" android:value="default"/>
+            <!-- extract android style -->
+        </activity>
+
+        <activity android:name="org.qtproject.qt5.android.bindings.QtActivity" />
+
+        <service android:name=".android.DocumentSaverService" />
+
+    </application>
+
+    <supports-screens
+        android:xlargeScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:smallScreens="false"/>
+
+    <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+
+    <uses-feature
+	    android:name="android.hardware.type.pc"
+	    android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+</manifest>

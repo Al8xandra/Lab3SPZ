@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Tools">
+  <Actions category="tool-shortcuts">
+  <text>Tool Shortcuts</text>
+    <Action name="KisToolTransform">
+      <icon>krita_tool_transform</icon>
+      <text>Transform Tool</text>
+      <whatsThis></whatsThis>
+      <toolTip>Transform a layer or a selection</toolTip>
+      <iconText>Transform a layer or a selection</iconText>
+      <shortcut>Ctrl+T</shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+  </Actions>
+</ActionCollection>

@@ -1,0 +1,12 @@
+{
+    "Id": "Krita RAW Import Filter",
+    "NoDisplay": "true",
+    "Type": "Service",
+    "X-KDE-Import": "image/x-krita-raw",
+    "X-KDE-Library": "krita_raw_import",
+    "X-KDE-ServiceTypes": [
+        "Krita/FileFilter"
+    ],
+    "X-KDE-Weight": "1",
+    "X-KDE-Extensions": "bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,x3f,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,rwl,srw"
+}

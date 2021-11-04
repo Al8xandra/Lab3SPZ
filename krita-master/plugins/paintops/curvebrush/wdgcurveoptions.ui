@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>WdgCurveOptions</class>
+ <widget class="QWidget" name="WdgCurveOptions">
+  <layout class="QGridLayout" columnstretch="0,1" name="gridLayout">
+   <item column="0" row="0">
+    <widget class="QLabel" name="lineWidthLbl">
+     <property name="text">
+      <string>Line width:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="0">
+    <widget class="KisDoubleSliderSpinBox" name="lineWidthSlider" native="true"/>
+   </item>
+   <item column="0" row="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>History size:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="1">
+    <widget class="KisDoubleSliderSpinBox" name="historySizeSlider" native="true"/>
+   </item>
+   <item column="0" row="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Curves opacity:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="2">
+    <widget class="KisDoubleSliderSpinBox" name="curvesOpacitySlider" native="true"/>
+   </item>
+   <item colspan="2" column="0" row="3">
+    <widget class="QCheckBox" name="connectionCHBox">
+     <property name="text">
+      <string>Paint connection line</string>
+     </property>
+    </widget>
+   </item>
+   <item colspan="2" column="0" row="4">
+    <widget class="QCheckBox" name="smoothingCHBox">
+     <property name="text">
+      <string>Smoothing</string>
+     </property>
+    </widget>
+   </item>
+   <item colspan="2" column="0" row="5">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KisDoubleSliderSpinBox</class>
+   <extends>QWidget</extends>
+   <header>kis_slider_spin_box.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

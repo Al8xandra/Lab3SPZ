@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>WdgLayerSize</class>
+ <widget class="QWidget" name="WdgLayerSize">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>374</width>
+    <height>212</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Layer Size</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupNewSize">
+     <property name="title">
+      <string>New Size</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item column="4" row="0" rowspan="2">
+       <widget class="KoAspectButton" name="aspectRatioBtn" native="true">
+        <property name="text" stdset="0">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item column="5" row="1">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::MinimumExpanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item column="3" row="0">
+       <widget class="QComboBox" name="newWidthUnit"/>
+      </item>
+      <item column="3" row="1">
+       <widget class="QComboBox" name="newHeightUnit"/>
+      </item>
+      <item column="1" row="0">
+       <widget class="QLabel" name="lblNewWidth">
+        <property name="text">
+         <string>Width:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item column="2" row="0">
+       <widget class="KisDoubleParseUnitSpinBox" name="newWidthDouble">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="decimals">
+         <number>4</number>
+        </property>
+        <property name="minimum">
+         <double>0.000100000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100000000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.100000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item column="2" row="1">
+       <widget class="KisDoubleParseUnitSpinBox" name="newHeightDouble">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="decimals">
+         <number>4</number>
+        </property>
+        <property name="minimum">
+         <double>0.000100000000000</double>
+        </property>
+        <property name="maximum">
+         <double>10000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.100000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item colspan="2" column="2" row="2">
+       <widget class="KisCmbIDList" name="filterCmb" native="true"/>
+      </item>
+      <item column="1" row="2">
+       <widget class="QLabel" name="lblFilter">
+        <property name="text">
+         <string comment="Resize intepolation method list label">Filter:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="1">
+       <widget class="QLabel" name="lblNewHeight">
+        <property name="text">
+         <string>Height:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item colspan="4" column="2" row="3">
+       <widget class="QCheckBox" name="constrainProportionsCkb">
+        <property name="toolTip">
+         <string>Constrain aspect ratio</string>
+        </property>
+        <property name="text">
+         <string>Constrain proportions</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="0">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>25</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::MinimumExpanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KisCmbIDList</class>
+   <extends/>
+   <header>widgets/kis_cmb_idlist.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KoAspectButton</class>
+   <extends>QWidget</extends>
+   <header>KoAspectButton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>KisDoubleParseUnitSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>kis_double_parse_unit_spin_box.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>newWidthDouble</tabstop>
+  <tabstop>newWidthUnit</tabstop>
+  <tabstop>newHeightDouble</tabstop>
+  <tabstop>newHeightUnit</tabstop>
+  <tabstop>filterCmb</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

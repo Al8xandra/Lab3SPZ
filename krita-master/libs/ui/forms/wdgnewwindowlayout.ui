@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>DlgNewWindowLayout</class>
+ <widget class="QWidget" name="DlgNewWindowLayout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>116</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Save new window layout</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item column="0" row="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Name:</string>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="1">
+    <widget class="QLineEdit" name="nameInput"/>
+   </item>
+   <item column="1" row="2">
+    <widget class="QCheckBox" name="chkFollowFocus">
+     <property name="text">
+      <string>Primary workspace follows focus</string>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="3">
+    <widget class="QCheckBox" name="chkActiveInAllWindows">
+     <property name="text">
+      <string>Show active image in all windows</string>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="4">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

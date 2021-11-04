@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>WdgSPenSettings</class>
+ <widget class="QWidget" name="WdgSPenSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="boxButtonActions">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Button Actions</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item column="0" row="1">
+       <widget class="QLabel" name="labelClick">
+        <property name="text">
+         <string>Click</string>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="1">
+       <widget class="QComboBox" name="cmbClickAction"/>
+      </item>
+      <item column="0" row="2">
+       <widget class="QLabel" name="labelDoubleClick">
+        <property name="text">
+         <string>Double Click</string>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="2">
+       <widget class="QComboBox" name="cmbDoubleClickAction"/>
+      </item>
+      <item colspan="2" column="0" row="0">
+       <widget class="QLabel" name="label_7">
+        <property name="font">
+         <font>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="text">
+         <string>Following button actions are supported on the Note 9, Note 10 and Tab S6 devices.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="BoxGestures">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Gestures</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item column="0" row="1">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Swipe Up</string>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="1">
+       <widget class="QComboBox" name="cmbGestureSwipeUp"/>
+      </item>
+      <item column="0" row="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Swipe Down</string>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="4">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Swipe Right</string>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="3">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Swipe Left</string>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="6">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Circle Clockwise</string>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="7">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Circle Counterclockwise</string>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="2">
+       <widget class="QComboBox" name="cmbGestureSwipeDown"/>
+      </item>
+      <item column="1" row="3">
+       <widget class="QComboBox" name="cmbGestureSwipeLeft"/>
+      </item>
+      <item column="1" row="4">
+       <widget class="QComboBox" name="cmbGestureSwipeRight"/>
+      </item>
+      <item column="1" row="6">
+       <widget class="QComboBox" name="cmbGestureCircleCW"/>
+      </item>
+      <item column="1" row="7">
+       <widget class="QComboBox" name="cmbGestureCircleCCW"/>
+      </item>
+      <item colspan="2" column="0" row="0">
+       <widget class="QLabel" name="label_8">
+        <property name="font">
+         <font>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="text">
+         <string>Following gestures are supported on the Note 10 and Tab S6 devices.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

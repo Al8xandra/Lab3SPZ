@@ -1,0 +1,13 @@
+{
+    "Icon": "",
+    "Id": "Krita ora Export Filter",
+    "NoDisplay": "true",
+    "Type": "Service",
+    "X-KDE-Export": "image/openraster",
+    "X-KDE-Library": "kritaoraexport",
+    "X-KDE-ServiceTypes": [
+        "Krita/FileFilter"
+    ],
+    "X-KDE-Weight": "1",
+    "X-KDE-Extensions" : "ora"
+}

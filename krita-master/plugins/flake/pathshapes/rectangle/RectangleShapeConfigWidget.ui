@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>RectangleShapeConfigWidget</class>
+ <widget class="QWidget" name="RectangleShapeConfigWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>108</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Rectangle Shape</string>
+  </property>
+  <layout class="QGridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>6</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>3</number>
+   </property>
+   <item column="0" row="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Corner radius x:</string>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="0">
+    <widget class="KisDoubleParseUnitSpinBox" name="cornerRadiusX"/>
+   </item>
+   <item column="0" row="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Corner radius y:</string>
+     </property>
+    </widget>
+   </item>
+   <item column="1" row="1">
+    <widget class="KisDoubleParseUnitSpinBox" name="cornerRadiusY"/>
+   </item>
+   <item column="0" row="2">
+    <spacer name="spacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>6</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KisDoubleParseUnitSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>kis_double_parse_unit_spin_box.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

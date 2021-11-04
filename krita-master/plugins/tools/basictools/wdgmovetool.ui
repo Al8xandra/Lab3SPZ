@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>WdgMoveTool</class>
+ <widget class="QWidget" name="WdgMoveTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>245</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="grpSelectionMethod">
+     <property name="minimumSize">
+      <size>
+       <width>221</width>
+       <height>101</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Selection Mode</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item column="0" row="0">
+       <widget class="QRadioButton" name="radioSelectedLayer">
+        <property name="toolTip">
+         <string>Move the layer that you have currently selected in the layerbox with its masks. Shortcut: ctrl-click.</string>
+        </property>
+        <property name="text">
+         <string>&amp;Move current layer</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="1">
+       <widget class="QRadioButton" name="radioFirstLayer">
+        <property name="toolTip">
+         <string>Move the first layer with visible content at the place where you click. This will also select that layer in the layerbox.</string>
+        </property>
+        <property name="text">
+         <string>Mo&amp;ve layer with content</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="2">
+       <widget class="QRadioButton" name="radioGroup">
+        <property name="toolTip">
+         <string>Move the group containing the first layer that contains visible content. Shortcut: ctrl-shift-click.</string>
+        </property>
+        <property name="text">
+         <string>Move &amp;the whole group</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="grpMoveStep">
+     <property name="minimumSize">
+      <size>
+       <width>227</width>
+       <height>91</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Move Shortcut</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item column="1" row="2">
+       <widget class="KisDoubleParseSpinBox" name="spinMoveScale">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTip">
+         <string>When holding shift, move keyboard shortcuts scale up by this amount.</string>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>1000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>10.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="2">
+       <widget class="QLabel" name="scaleLabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Multiplier:</string>
+        </property>
+       </widget>
+      </item>
+      <item column="1" row="1">
+       <widget class="QComboBox" name="cmbUnit"/>
+      </item>
+      <item column="1" row="0">
+       <widget class="KisDoubleParseSpinBox" name="spinMoveStep">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTip">
+         <string>Number of units to move after move shortcut keypress.</string>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="0">
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string comment="Amount of shortcut key movement for Move Tool">Amount:</string>
+        </property>
+       </widget>
+      </item>
+      <item column="0" row="1">
+       <widget class="QLabel" name="label_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Unit:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="moveGroup">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>101</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Position</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_11">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QFormLayout" name="formLayout_3">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+        </property>
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item column="0" row="0">
+         <widget class="QLabel" name="label_offsetX">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Horizontal Translation</string>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>&amp;x:</string>
+          </property>
+          <property name="buddy">
+           <cstring>translateXBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item column="1" row="0">
+         <widget class="KisIntParseSpinBox" name="translateXBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Horizontal Translation</string>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+         </widget>
+        </item>
+        <item column="1" row="2">
+         <widget class="KisIntParseSpinBox" name="translateYBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Vertical Translation</string>
+          </property>
+         </widget>
+        </item>
+        <item column="0" row="2">
+         <widget class="QLabel" name="label_offsetY">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Vertical Translation</string>
+          </property>
+          <property name="text">
+           <string>&amp;y:</string>
+          </property>
+          <property name="buddy">
+           <cstring>translateYBox</cstring>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="chkShowCoordinates">
+     <property name="toolTip">
+      <string>Show coordinates on canvas</string>
+     </property>
+     <property name="text">
+      <string>Show coordinates on canvas</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="SpecialSpacer" native="true"/>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KisDoubleParseSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>kis_double_parse_spin_box.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KisIntParseSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>kis_int_parse_spin_box.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,203 @@
+Since 1999, people have been hacking on Krita. Everyone brought their
+own coding style, their own code conventions, their own likes and
+dislikes. Me, (Boudewijn that is), I like indents of four spaces, and
+no scope prefixes for variables. However, in the interests of
+consistency, these are the rules new code should adhere to:
+
+See also https://community.kde.org/Policies/Frameworks_Coding_Style --
+that document is leading.
+
+Qt vs STD vs Boost:
+
+    In general, use the Qt classes wherever possible, even if someone tells you
+    that the STD class is better or whatever. We're dealing with a big project
+    with lots of developers here and we should keep the code as consistent and
+    easy to grasp as possible. Since people need to know Qt in the first place,
+    keep to Qt. Discuss deviations on #krita
+
+C++11 and C++14
+
+    Yes, but.
+
+    * Prefer normal functions over lambdas, unless really needed (e.g. when replacing
+      the use of QSignalMapper)
+
+    * Try to avoid auto as a shortcut for the type name, except when used
+      in range-based for-loops and iterators. Using auto as a replacement
+      for a templated code (or inside templated code) is perfectly fine.
+
+    * Generic lambdas. Use generic lambdas only when you want to solve a
+      problem that would otherwise require templates, not just as a shortcut for
+      the argument typenames.
+
+    * auto as a deduced return type of functions that would otherwise require
+      templates is perfectly fine
+
+    * In some cases it might be okay to use auto as a shortcut for the typename,
+      e.g. when using very long types returned by boost. But better discuss that
+      on #krita.
+
+    * Avoid the new sig/slot connection syntax _unless_ you are porting all of
+      Krita to the new syntax. Sure, it has some advantages, but having two different
+      ways of doing the same thing is begging for trouble and comprehension problems.
+
+    * For now, keep using Q_FOREACH, we're using it all over the place, and it has
+      different constness semantics over the standard range-based for-loop.
+
+    * Use nullptr in new code. When changing existing code, make sure that 1) the whole
+      .cpp/.h files pair uses the same style, 2) the change of the style outweigh the
+      loss of the git-blame history (that is, your changes do already change the file
+      significantly)
+
+    * Before using other new features, discuss on #krita so we can expand this list.
+
+    * Our minimum gcc version is 5.5.0, shipped with Ubuntu 16.04
+
+
+Indentation
+
+	With four spaces. Use the default kdelibs indentation 
+    (http://techbase.kde.org/Policies/Kdelibs_Coding_Style)
+
+Includes
+
+	Avoid as much as possible #includes in header files; use forward declarations
+	of classes.
+
+Initializers
+
+	Avoid as much as possible initializers in the body of the constructor. Use
+	initializer lists instead. Write the initializers as follows
+
+    Class(A a, B b)
+        : Subclass(a)
+        , m_b(b)
+    {
+    }
+
+    Note the location of the colon and comma.
+
+    It is also preferred to use {}-initialization for class members and
+    glabal namespace scope variables, e.g.
+
+    class Foo
+    {
+        int m_value {0};
+    };
+
+    namespace Bar
+    {
+        int SomeGlobalValue {0};
+    };
+
+    Since Krita has a long history of usage =-initizalization everywhere, it is **not**
+    recommended to use {}-initialization in function bodies, especially, when it results
+    in a mix of styles in the same file. You can still use that as an exception to solve
+    some specific problems like the most vexing parse.
+
+Scope prefixes
+
+	Use only m_ for class-level variables. No other scope prefixes; no g_, l_,
+	no 'p' for pointer variables.
+
+Shared pointers
+
+	Use shared pointers wherever possible. Prefer Qt's shared pointer classes
+    to our home-grown shared ppointer classes.
+
+Getter/setter
+
+	Krita doesn't use Qt's properties -- yet. If you want to introduce use of
+	properties, convert any and all classes in Krita before committing.
+
+	Getter/setters are named 'x() for getters and setX(int x) for setters. If you
+	come across violations of this rule, change the code.	
+
+Class naming
+
+	If you use a well-known design pattern, name the class according to the design
+	pattern. All files should start with 'Kis', all classes with the 'Kis' prefix.
+    This filename should be the same as the classname: KisNewClass.h, KisNewClass.
+
+    Filenames in plugins do not start with Kis; only in libraries. Do not make new
+    classes that start with Ko.
+
+Function naming
+
+	Functions should be named in camelBackedFashion, to conform to Qt's standards.
+	If you encounter functions in c_style_like_this, feel free to rename. Also:
+	verbNoun -- i.e., rotateLayer, not layer_rotate. The latter is a true c-ism,
+	introduced by a language that needs to prefix the 'class' name to every function
+	in order to have something that's not quite OO.
+
+Variable/Parameter names
+
+	Variable/parameter names start with a lower case letter. A name composed of different
+	words is done in camelBackedStyle.
+
+Designer
+
+	Krita has started to use designer. All dialogs and all widgets that have a layout
+	manager must be done in designer. Do not add code or signal/slot connections
+	in designer.
+
+Enums
+
+	All enums should be prefixed with 'enum'.
+
+Namespaces
+
+	Currently, we only use anonymous namespaces for things like undo
+	commands. For the rest, some classes have a 'Kis' prefix, others don't. This should
+	be made consistent, and we might want to use namespaces to keep all of Krita
+	inside.
+
+Files and classes
+
+	It's preferred (and strongly preferred) to have only one class per .h/.cpp file.
+	(Which is logical, because otherwise you won't be able to keep to the naming scheme.)
+
+Spaces
+
+	Keep the source airy and open. In particular, there should be empty lines between function
+    declarations and definitions.
+
+Slots and signals
+
+	Prefix slots with slot and signals with sig: slotUpdateSelection, sigSelectionUpdated.
+
+Boolean operators
+
+    Use the standard !, !=, ==, && etc style, not the "not", "and" etc. style. Keep krita code
+    using one, easily recognizable, C++ style.
+
+
+With Krita now supporting Python scripting, we need guidelines for these as well.
+These guidelines are preliminary and may be further refined in the future.
+
+To keep it simple, we have chosen to follow the style guide suggested by Python: PEP8.
+
+All rules should be followed, except the max limit of 79 characters per line. As this
+can reduce readability in some cases, this rule is optional.
+
+The full PEP8 specification is available here: https://www.python.org/dev/peps/pep-0008/
+
+To check compliance you can run pep8.py against the code.
+You can also use autopep8.py to automatically fix detected compliance issues.
+
+pep8.py can be downloaded via Python's package manager (pip) [https://pypi.python.org/pypi/pep8],
+or your distribution's package manager.
+autopep8.py can also be downloaded via Python's package manager [https://pypi.python.org/pypi/autopep8],
+or your distribution's package manager.
+
+Both of these scripts come bundled with the PyDev plugin, which is available for Eclipse and other IDEs.
+The PyDev integration can be configured to visually highlight portions of the code which is not in compliance,
+as well as run autopep8 via shortcuts.
+
+pep8.py and autopep8.py can suppress select rules via the "--ignore" command line argument.
+To ignore the 79 characters per line rule, pep8.py can be called like this:
+
+pep8.py --ignore=E501
+
+You can read more about the error codes and what they mean here:
+http://pep8.readthedocs.io/en/release-1.7.x/intro.html#error-codes

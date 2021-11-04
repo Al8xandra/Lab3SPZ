@@ -1,0 +1,82 @@
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<RCC>
+    <qresource prefix="/">
+        <file>light_draw-eraser.svg</file>
+        <file>light_geometry.svg</file>
+        <file alias="light_object-align-horizontal-center-calligra.svg">light_ox16-action-object-align-horizontal-center-calligra.svg</file>
+        <file alias="light_object-align-vertical-bottom-calligra.svg">light_ox16-action-object-align-vertical-bottom-calligra.svg</file>
+        <file alias="light_object-align-vertical-center-calligra.svg">light_ox16-action-object-align-vertical-center-calligra.svg</file>
+        <file alias="light_object-align-vertical-top-calligra.svg">light_ox16-action-object-align-vertical-top-calligra.svg</file>
+        <file alias="light_object-order-back-calligra.svg">light_ox16-action-object-order-back-calligra.svg</file>
+        <file alias="light_object-order-front-calligra.svg">light_ox16-action-object-order-front-calligra.svg</file>
+        <file alias="light_object-order-lower-calligra.svg">light_ox16-action-object-order-lower-calligra.svg</file>
+        <file alias="light_object-order-raise-calligra.svg">light_ox16-action-object-order-raise-calligra.svg</file>
+        <file alias="light_object-group-calligra.svg">light_ox16-action-object-group-calligra.svg</file>
+        <file alias="light_object-ungroup-calligra.svg">light_ox16-action-object-ungroup-calligra.svg</file>
+        <file>light_distribute-horizontal-center.svg</file>
+        <file>light_distribute-horizontal-left.svg</file>
+        <file>light_distribute-horizontal-right.svg</file>
+        <file>light_distribute-horizontal.svg</file>
+        <file>light_distribute-vertical-bottom.svg</file>
+        <file>light_distribute-vertical-center.svg</file>
+        <file>light_distribute-vertical-top.svg</file>
+        <file>light_distribute-vertical.svg</file>
+        <file>light_paintop_settings_01.svg</file>
+        <file>light_paintop_settings_02.svg</file>
+        <file>light_pivot-point.svg</file>
+        <file>light_stroke-cap-butt.svg</file>
+        <file>light_stroke-cap-round.svg</file>
+        <file>light_stroke-cap-square.svg</file>
+        <file>light_stroke-join-bevel.svg</file>
+        <file>light_stroke-join-miter.svg</file>
+        <file>light_stroke-join-round.svg</file>
+        <file>light_symmetry-horizontal.svg</file>
+        <file>light_symmetry-vertical.svg</file>
+        <file>light_onionOff.svg</file>
+        <file>light_onionOn.svg</file>
+        <file>light_onion_skin_options.svg</file>
+        <file>light_path-break-point.svg</file>
+        <file>light_path-break-segment.svg</file>
+        <file>light_pathpoint-corner.svg</file>
+        <file>light_pathpoint-curve.svg</file>
+        <file>light_pathpoint-insert.svg</file>
+        <file>light_pathpoint-join.svg</file>
+        <file>light_pathpoint-line.svg</file>
+        <file>light_pathpoint-merge.svg</file>
+        <file>light_pathpoint-remove.svg</file>
+        <file>light_pathpoint-smooth.svg</file>
+        <file>light_pathpoint-symmetric.svg</file>
+        <file>light_pathsegment-curve.svg</file>
+        <file>light_pathsegment-line.svg</file>
+        <file>light_opacity-increase.svg</file>
+        <file>light_opacity-decrease.svg</file>
+        <file alias="light_increase_opacity.svg">light_opacity-increase.svg</file>
+        <file alias="light_decrease_opacity.svg">light_opacity-decrease.svg</file>
+        <file>light_lightness-increase.svg</file>
+        <file>light_lightness-decrease.svg</file>
+        <file alias="light_make_brush_color_lighter.svg">light_lightness-increase.svg</file>
+        <file alias="light_make_brush_color_darker.svg">light_lightness-decrease.svg</file>
+        <file>light_brushsize-increase.svg</file>
+        <file>light_brushsize-decrease.svg</file>
+        <file alias="light_increase_brush_size.svg">light_brushsize-increase.svg</file>
+        <file alias="light_decrease_brush_size.svg">light_brushsize-decrease.svg</file>
+        <file>light_curve-preset-u.svg</file>
+        <file>light_curve-preset-s.svg</file>
+        <file>light_curve-preset-s-reverse.svg</file>
+        <file>light_curve-preset-linear.svg</file>
+        <file>light_curve-preset-linear-reverse.svg</file>
+        <file>light_curve-preset-l.svg</file>
+        <file>light_curve-preset-j.svg</file>
+        <file>light_curve-preset-arch.svg</file>
+        <file>light_snapshot-load.svg</file>
+        <file>light_kerning.svg</file>
+        <file>light_view-choose.svg</file>
+        <file alias="light_settings-button.svg">light_view-choose.svg</file>
+        <file>light_view-choose-22.svg</file>
+        <file alias="light_object-align-horizontal-left-calligra.svg">light_ox16-action-object-align-horizontal-left-calligra.svg</file>
+        <file alias="light_object-align-horizontal-right-calligra.svg">light_ox16-action-object-align-horizontal-right-calligra.svg</file>
+    </qresource>
+</RCC>

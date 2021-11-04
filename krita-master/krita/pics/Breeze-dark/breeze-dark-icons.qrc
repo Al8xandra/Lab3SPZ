@@ -1,0 +1,60 @@
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<RCC>
+    <qresource prefix="/">
+        <file>dark_application-exit.svg</file>
+        <file>dark_application-pdf.svg</file>
+        <file>dark_applications-system.svg</file>
+        <file alias="dark_configure-shortcuts.svg">dark_applications-system.svg</file>
+        <file>dark_configure.svg</file>
+        <file alias="dark_configure-toolbars.svg">dark_configure.svg</file>
+        <file alias="dark_dialog-close.svg">dark_window-close.svg</file>
+        <file>dark_dialog-ok.svg</file>
+        <file>dark_dialog-warning.svg</file>
+        <file>dark_document-new.svg</file>
+        <file>dark_document-open-recent.svg</file>
+        <file>dark_document-open.svg</file>
+        <file>dark_document-print-preview.svg</file>
+        <file alias="dark_document-properties.svg">dark_configure.svg</file>
+        <file>dark_document-save-as.svg</file>
+        <file>dark_document-save.svg</file>
+        <file>dark_download.svg</file>
+        <file>dark_drive-harddisk.svg</file>
+        <file>dark_edit-clear.svg</file>
+        <file alias="dark_clear.svg">dark_edit-clear.svg</file>
+        <file>dark_edit-copy.svg</file>
+        <file>dark_edit-paste.svg</file>
+        <file>dark_folder-documents.svg</file>
+        <file>dark_folder-pictures.svg</file>
+        <file>dark_folder.svg</file>
+        <file>dark_format-list-unordered.svg</file>
+        <file>dark_go-home.svg</file>
+        <file>dark_im-user.svg</file>
+        <file>dark_kde.svg</file>
+        <file>dark_layer-visible-off.svg</file>
+        <file>dark_link.svg</file>
+        <file>dark_object-rotate-left.svg</file>
+        <file>dark_object-rotate-right.svg</file>
+        <file>dark_preferences-desktop-color.svg</file>
+        <file>dark_preferences-desktop-display.svg</file>
+        <file>dark_preferences-desktop-locale.svg</file>
+        <file>dark_process-stop.svg</file>
+        <file>dark_tag.svg</file>
+        <file>dark_tools-report-bug.svg</file>
+        <file>dark_tools-wizard.svg</file>
+        <file>dark_view-fullscreen.svg</file>
+        <file>dark_view-grid.svg</file>
+        <file>dark_view-list-text.svg</file>
+        <file>dark_view-refresh.svg</file>
+        <file>dark_window-close.svg</file>
+        <file>dark_window-new.svg</file>
+        <file>dark_zoom-in.svg</file>
+        <file alias="dark_view_zoom_in.svg">dark_zoom-in.svg</file>
+        <file>dark_zoom-original.svg</file>
+        <file>dark_zoom-out.svg</file>
+        <file alias="dark_view_zoom_out.svg">dark_zoom-out.svg</file>
+        <file>dark_update-medium.svg</file>
+    </qresource>
+</RCC>

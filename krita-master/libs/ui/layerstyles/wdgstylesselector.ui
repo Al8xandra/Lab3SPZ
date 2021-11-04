@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <author>
+    SPDX-FileCopyrightText: none
+    SPDX-License-Identifier: GPL-3.0-or-later
+  </author>
+ <class>WdgStylesSelector</class>
+ <widget class="QWidget" name="WdgStylesSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item column="0" row="0">
+    <widget class="QGroupBox" name="grpStyleSelector">
+     <property name="title">
+      <string>Styles</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item column="0" row="1">
+       <widget class="QListView" name="listStyles"/>
+      </item>
+      <item column="0" row="0">
+       <widget class="QComboBox" name="cmbStyleCollections"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

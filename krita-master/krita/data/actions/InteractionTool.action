@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Tools">
+  <Actions category="Interaction Tool">
+    <text>Interaction Tool</text>
+    <Action name="object_order_raise">
+      <iconText>Raise</iconText>
+      <shortcut>Ctrl+Alt+]</shortcut>
+      <toolTip>Raise</toolTip>
+      <icon>object-order-raise-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>&amp;Raise</text>
+    </Action>
+    <Action name="object_align_horizontal_right">
+      <iconText>Align Right</iconText>
+      <shortcut></shortcut>
+      <toolTip>Align Right</toolTip>
+      <icon>object-align-horizontal-right-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Align Right</text>
+    </Action>
+    <Action name="object_ungroup">
+      <iconText>Ungroup</iconText>
+      <shortcut></shortcut>
+      <toolTip>Ungroup</toolTip>
+      <icon>object-ungroup-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Ungroup</text>
+    </Action>
+    <Action name="object_order_back">
+      <iconText>Send to Back</iconText>
+      <shortcut>Ctrl+Shift+[</shortcut>
+      <toolTip>Send to Back</toolTip>
+      <icon>object-order-back-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Send to &amp;Back</text>
+    </Action>
+    <Action name="object_order_front">
+      <iconText>Bring to Front</iconText>
+      <shortcut>Ctrl+Shift+]</shortcut>
+      <toolTip>Bring to Front</toolTip>
+      <icon>object-order-front-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Bring to &amp;Front</text>
+    </Action>
+    <Action name="object_align_vertical_center">
+      <iconText>Vertically Center</iconText>
+      <shortcut></shortcut>
+      <toolTip>Vertically Center</toolTip>
+      <icon>object-align-vertical-center-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Vertically Center</text>
+    </Action>
+    <Action name="object_group">
+      <iconText>Group</iconText>
+      <shortcut></shortcut>
+      <toolTip comment="Group in the context of Vector Interaction Tool">Group</toolTip>
+      <icon>object-group-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text comment="Group in the context of Vector Interaction Tool">Group</text>
+    </Action>
+    <Action name="object_align_horizontal_left">
+      <iconText>Align Left</iconText>
+      <shortcut></shortcut>
+      <toolTip>Align Left</toolTip>
+      <icon>object-align-horizontal-left-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Align Left</text>
+    </Action>
+    <Action name="object_align_vertical_top">
+      <iconText>Align Top</iconText>
+      <shortcut></shortcut>
+      <toolTip>Align Top</toolTip>
+      <icon>object-align-vertical-top-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Align Top</text>
+    </Action>
+    <Action name="object_align_horizontal_center">
+      <iconText>Horizontally Center</iconText>
+      <shortcut></shortcut>
+      <toolTip>Horizontally Center</toolTip>
+      <icon>object-align-horizontal-center-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Horizontally Center</text>
+    </Action>
+    <Action name="object_order_lower">
+      <iconText>Lower</iconText>
+      <shortcut>Ctrl+Alt+[</shortcut>
+      <toolTip>Lower</toolTip>
+      <icon>object-order-lower-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>&amp;Lower</text>
+    </Action>
+    <Action name="object_align_vertical_bottom">
+      <iconText>Align Bottom</iconText>
+      <shortcut></shortcut>
+      <toolTip>Align Bottom</toolTip>
+      <icon>object-align-vertical-bottom-calligra</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+      <text>Align Bottom</text>
+    </Action>
+
+    <Action name="object_distribute_horizontal_left">
+      <text>Distribute Left</text>
+      <toolTip>Distribute left edges equidistantly</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-horizontal-left</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_horizontal_center">
+      <text>Distribute Centers Horizontally</text>
+      <toolTip>Distribute centers equidistantly horizontally</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-horizontal-center</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_horizontal_right">
+      <text>Distribute Right</text>
+      <toolTip>Distribute right edges equidistantly</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-horizontal-right</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_horizontal_gaps">
+      <text>Distribute Horizontal Gap</text>
+      <toolTip>Make horizontal gaps between objects equal</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-horizontal</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_distribute_vertical_top">
+      <text>Distribute Top</text>
+      <toolTip>Distribute top edges equidistantly</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-vertical-top</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_vertical_center">
+      <text>Distribute Centers Vertically</text>
+      <toolTip>Distribute centers equidistantly vertically</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-vertical-center</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_vertical_bottom">
+      <text>Distribute Bottom</text>
+      <toolTip>Distribute bottom edges equidistantly</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-vertical-bottom</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+    <Action name="object_distribute_vertical_gaps">
+      <text>Distribute Vertical Gap</text>
+      <toolTip>Make vertical gaps between objects equal</toolTip>
+      <shortcut></shortcut>
+      <icon>distribute-vertical</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_rotate_90_cw">
+      <text>Rotate 90° CW</text>
+      <toolTip>Rotate object 90° clockwise</toolTip>
+      <shortcut></shortcut>
+      <icon>object-rotate-right</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_rotate_90_ccw">
+      <text>Rotate 90° CCW</text>
+      <toolTip>Rotate object 90° counterclockwise</toolTip>
+      <shortcut></shortcut>
+      <icon>object-rotate-left</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_rotate_180">
+      <text>Rotate 180°</text>
+      <toolTip>Rotate object 180°</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_mirror_horizontally">
+      <text>Mirror Horizontally</text>
+      <toolTip>Mirror object horizontally</toolTip>
+      <shortcut></shortcut>
+      <icon>symmetry-horizontal</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_mirror_vertically">
+      <text>Mirror Vertically</text>
+      <toolTip>Mirror object vertically</toolTip>
+      <shortcut></shortcut>
+      <icon>symmetry-vertical</icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_transform_reset">
+      <text>Reset Transformations</text>
+      <toolTip>Reset object transformations</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_unite">
+      <text>Unite</text>
+      <toolTip>Create boolean union of multiple objects</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_intersect">
+      <text>Intersect</text>
+      <toolTip>Create boolean intersection of multiple objects</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_subtract">
+      <text>Subtract</text>
+      <toolTip>Subtract multiple objects from the first selected one</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+    <Action name="object_split">
+      <text>Split</text>
+      <toolTip>Split objects with multiple subpaths into multiple objects</toolTip>
+      <shortcut></shortcut>
+      <icon></icon>
+      <whatsThis></whatsThis>
+      <statusTip></statusTip>
+      <isCheckable>false</isCheckable>
+    </Action>
+
+
+  </Actions>
+</ActionCollection>

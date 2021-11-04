@@ -1,0 +1,120 @@
+/*
+ *  SPDX-FileCopyrightText: 2010 Adam Celarek <kdedev at xibo dot at>
+ *
+ *  SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+#ifndef KIS_COLOR_SELECTOR_COMPONENT_H
+#define KIS_COLOR_SELECTOR_COMPONENT_H
+
+#include <QObject>
+#include <QColor>
+
+#include <resources/KoGamutMask.h>
+
+#include "kis_color_selector.h"
+
+class KoColorSpace;
+
+class QPainter;
+
+
+class KisColorSelectorComponent : public QObject
+{
+    Q_OBJECT
+public:
+    typedef KisColorSelectorConfiguration::Parameters Parameter;
+    typedef KisColorSelectorConfiguration::Type Type;
+
+    explicit KisColorSelectorComponent(KisColorSelector* parent);
+    void setGeometry(int x, int y, int width, int height);
+    void paintEvent(QPainter*);
+
+    /// saves the mouse position, so that a blip can be created.
+    virtual void mouseEvent(int x, int y);
+
+    /// return the color, that was selected by calling mouseEvent
+    KoColor currentColor();
+
+    int width() const;
+    int height() const;
+
+    /// setConfiguration can be ignored (for instance ring and triangle, as they can have only one config)
+    void setConfiguration(Parameter param, Type type);
+
+    /// set the color, blibs etc
+    virtual void setColor(const KoColor& color);
+
+    /// force subsequent redraw of the component
+    void setDirty();
+
+    /// returns true, if this component wants to grab the mouse (normally true, if containsPoint returns true)
+    bool wantsGrab(int x, int y) {return containsPointInComponentCoords(x-m_x, y-m_y);}
+
+    void setGamutMask(KoGamutMaskSP gamutMask);
+    void unsetGamutMask();
+    void updateGamutMaskPreview();
+    void toggleGamutMask(bool state);
+
+public Q_SLOTS:
+    /// set hue, saturation, value or/and lightness
+    /// unused parameters should be set to -1
+    void setParam(qreal hue, qreal hsvSaturation, qreal value, qreal hslSaturation, qreal lightness, qreal hsiSaturation, qreal intensity, qreal hsySaturation, qreal luma);
+Q_SIGNALS:
+    /// request for repaint, for instance, if the hue changes.
+    void update();
+    /// -1, if unaffected
+    void paramChanged(qreal hue, qreal hsvSaturation, qreal value, qreal hslSaturation, qreal lightness, qreal hsiSaturation, qreal intensity, qreal hsySaturation, qreal luma);
+protected:
+    const KoColorSpace* colorSpace() const;
+    /// returns true, if ether the color space, the size or the parameters have changed since the last paint event
+    bool isDirty() const;
+
+    /// this method must be overloaded to return the color at position x/y and draw a marker on that position
+    virtual KoColor selectColor(int x, int y) = 0;
+
+    /// paint component using given painter
+    /// the component should respect width() and height() (eg. scale to width and height), but doesn't
+    /// have to care about x/y coordinates (top left corner)
+    virtual void paint(QPainter*) = 0;
+
+    /// a subclass can implement this method, the default returns true if the coordinates are in the component rect
+    /// values for the subclasses are provided in component coordinates, eg (0,0) is top left of component
+    virtual bool containsPointInComponentCoords(int x, int y) const;
+
+    /// a subclass can implement this method to note that the point, although it is in
+    /// containsPointInComponentCoords area, still cannot be selected as a color (e.g.
+    /// it is masked out). Default implementation always returns true.
+    virtual bool allowsColorSelectionAtPoint(const QPoint &) const;
+
+    // Workaround for Bug 287001
+    void setLastMousePosition(int x, int y);
+
+    qreal m_hue {0.0};
+    qreal m_hsvSaturation {0.0};
+    qreal m_value {0.0};
+    qreal m_hslSaturation {0.0};
+    qreal m_lightness {0.0};
+    qreal m_hsiSaturation {0.0};
+    qreal m_intensity {0.0};
+    qreal m_hsySaturation {0.0};
+    qreal m_luma {0.0};
+    Parameter m_parameter;
+    Type m_type;
+    KisColorSelector* m_parent {0};
+    bool m_gamutMaskOn {false};
+    KoGamutMaskSP m_currentGamutMask;
+    bool m_maskPreviewActive {false};
+    qreal m_lastX {0.0};
+    qreal m_lastY {0.0};
+    int m_x {0};
+    int m_y {0};
+private:
+    int m_width {0};
+    int m_height {0};
+    bool m_dirty {false};
+    const KoColorSpace* m_lastColorSpace {0};
+    KoColor m_lastSelectedColor;
+};
+
+#endif // KIS_COLOR_SELECTOR_COMPONENT_H

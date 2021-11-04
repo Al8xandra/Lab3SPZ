@@ -1,0 +1,21 @@
+<!DOCTYPE RCC>
+<!--
+  SPDX-FileCopyrightText: none
+  SPDX-License-Identifier: CC0-1.0
+-->
+<RCC version="1.0">
+    <qresource>
+    <file>dark_addlayer.svg</file>
+    <file>dark_arrowdown.svg</file>
+    <file>dark_arrowup.svg</file>
+    <file>dark_deletelayer.svg</file>
+    <file>dark_duplicatelayer.svg</file>
+    <file>dark_properties.svg</file>
+    <file>light_addlayer.svg</file>
+    <file>light_arrowdown.svg</file>
+    <file>light_arrowup.svg</file>
+    <file>light_deletelayer.svg</file>
+    <file>light_duplicatelayer.svg</file>
+    <file>light_properties.svg</file>
+    </qresource>
+</RCC>
